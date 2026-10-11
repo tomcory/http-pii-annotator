@@ -1,0 +1,415 @@
+[
+  {
+    "scenario_id": "S01",
+    "scenario": "signup_account_creation",
+    "goal": "Create a new account with basic identity and contact fields.",
+    "host_variants": ["api.fitbee.example", "mobile.fitbee.example", "gateway.fitbee.example"],
+    "endpoint_families": ["/api/v1/auth/signup", "/v2/users/register", "/mobile/v1/account/create", "/v1/onboarding/signup"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"category": "Personal info", "data_type": "Name", "weight": 0.7, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Email address", "weight": 0.85, "typical_placements": ["body", "query"]},
+      {"category": "Personal info", "data_type": "Phone number", "weight": 0.55, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "User IDs", "weight": 0.55, "typical_placements": ["body", "query"]},
+      {"category": "Personal info", "data_type": "Other info", "weight": 0.35, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S02",
+    "scenario": "profile_update_address_demographics",
+    "goal": "Update profile fields including address and demographic/sensitive attributes.",
+    "host_variants": ["api.chatnest.example", "profile.chatnest.example", "mobile.chatnest.example"],
+    "endpoint_families": ["/api/v1/users/{user_id}/profile", "/v2/profile/{user_id}", "/v1/me/profile", "/mobile/v1/account/profile"],
+    "methods": ["PATCH", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"category": "Personal info", "data_type": "Address", "weight": 0.7, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Race and ethnicity", "weight": 0.35, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Political or religious beliefs", "weight": 0.3, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Sexual orientation", "weight": 0.25, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Other info", "weight": 0.5, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "User IDs", "weight": 0.55, "typical_placements": ["path", "body"]}
+    ]
+  },
+  {
+    "scenario_id": "S03",
+    "scenario": "login_session_start",
+    "goal": "Authenticate and start a session, including device identifiers and performance hints.",
+    "host_variants": ["auth.shoplite.example", "api.shoplite.example", "edge.shoplite.example"],
+    "endpoint_families": ["/api/v1/auth/login", "/v1/session/login", "/v2/signin", "/mobile/v1/authenticate"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"category": "Personal info", "data_type": "Email address", "weight": 0.55, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Phone number", "weight": 0.35, "typical_placements": ["body"]},
+      {"category": "Device or other IDs", "data_type": "Device or other IDs", "weight": 0.85, "typical_placements": ["header", "body"]},
+      {"category": "App info and performance", "data_type": "Diagnostics", "weight": 0.25, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S04",
+    "scenario": "device_register_install",
+    "goal": "Register an app install and device identifiers for attribution/anti-fraud.",
+    "host_variants": ["edge.fitbee.example", "api.fitbee.example", "telemetry.fitbee.example"],
+    "endpoint_families": ["/api/v1/device/register", "/v2/installs", "/mobile/v1/devices", "/v1/device/install-event"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"category": "Device or other IDs", "data_type": "Device or other IDs", "weight": 0.95, "typical_placements": ["header", "body", "query"]},
+      {"category": "App activity", "data_type": "Installed apps", "weight": 0.45, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S05",
+    "scenario": "analytics_event_batch",
+    "goal": "Send analytics events describing user interactions and navigation patterns.",
+    "host_variants": ["analytics.shoplite.example", "api.shoplite.example", "edge.shoplite.example"],
+    "endpoint_families": ["/api/v1/analytics/events", "/v2/telemetry/events", "/mobile/v1/events/batch", "/v1/track"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "text/plain"],
+    "pii_candidates": [
+      {"category": "App activity", "data_type": "App interactions", "weight": 0.8, "typical_placements": ["body"]},
+      {"category": "App activity", "data_type": "Other actions", "weight": 0.65, "typical_placements": ["body"]},
+      {"category": "App activity", "data_type": "Other user-generated content", "weight": 0.3, "typical_placements": ["body"]},
+      {"category": "Device or other IDs", "data_type": "Device or other IDs", "weight": 0.55, "typical_placements": ["header", "body"]}
+    ],
+    "notes": "Use varied key names and event schemas; PII candidates are guidelines."
+  },
+  {
+    "scenario_id": "S06",
+    "scenario": "search_queries_telemetry",
+    "goal": "Record in-app search queries and associated interaction metadata.",
+    "host_variants": ["api.chatnest.example", "search.chatnest.example", "edge.chatnest.example"],
+    "endpoint_families": ["/api/v1/search/log", "/v2/telemetry/search", "/v1/queries/track", "/mobile/v1/search/events"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "text/plain"],
+    "pii_candidates": [
+      {"category": "App activity", "data_type": "In-app search history", "weight": 0.9, "typical_placements": ["body"]},
+      {"category": "App activity", "data_type": "App interactions", "weight": 0.45, "typical_placements": ["body"]},
+      {"category": "Device or other IDs", "data_type": "Device or other IDs", "weight": 0.35, "typical_placements": ["header"]}
+    ]
+  },
+  {
+    "scenario_id": "S07",
+    "scenario": "web_browsing_sync",
+    "goal": "Sync a browsing history list for cross-device continuity.",
+    "host_variants": ["api.browserhub.example", "sync.browserhub.example", "mobile.browserhub.example"],
+    "endpoint_families": ["/api/v1/history/sync", "/v2/web/history", "/v1/browsing/upload", "/mobile/v1/history/batch"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"category": "Web browsing", "data_type": "Web browsing history", "weight": 0.95, "typical_placements": ["body"]},
+      {"category": "Device or other IDs", "data_type": "Device or other IDs", "weight": 0.45, "typical_placements": ["header", "body"]},
+      {"category": "Personal info", "data_type": "User IDs", "weight": 0.35, "typical_placements": ["body", "query"]}
+    ]
+  },
+  {
+    "scenario_id": "S08",
+    "scenario": "checkout_payment_shipping",
+    "goal": "Complete checkout including payment info and shipping/contact details.",
+    "host_variants": ["checkout.shoplite.example", "api.shoplite.example"],
+    "endpoint_families": ["/api/v1/checkout", "/v2/orders/checkout", "/v1/orders", "/mobile/v1/cart/submit"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "multipart/form-data"],
+    "pii_candidates": [
+      {"category": "Financial info", "data_type": "User payment info", "weight": 0.85, "typical_placements": ["body"]},
+      {"category": "Financial info", "data_type": "Purchase history", "weight": 0.35, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Name", "weight": 0.45, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Email address", "weight": 0.35, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Phone number", "weight": 0.3, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Address", "weight": 0.55, "typical_placements": ["body"]}
+    ],
+    "notes": "If multipart is used, include metadata only (no binary)."
+  },
+  {
+    "scenario_id": "S09",
+    "scenario": "order_history_fetch",
+    "goal": "Fetch a user's purchase and transaction history.",
+    "host_variants": ["api.shoplite.example", "edge.shoplite.example"],
+    "endpoint_families": ["/api/v1/users/{user_id}/orders", "/v2/orders?user_id={user_id}", "/v1/purchases/history", "/mobile/v1/orders/history"],
+    "methods": ["GET"],
+    "content_types": ["(none)"],
+    "pii_candidates": [
+      {"category": "Financial info", "data_type": "Purchase history", "weight": 0.85, "typical_placements": ["query"]},
+      {"category": "Personal info", "data_type": "User IDs", "weight": 0.7, "typical_placements": ["path", "query"]},
+      {"category": "Device or other IDs", "data_type": "Device or other IDs", "weight": 0.35, "typical_placements": ["header"]}
+    ]
+  },
+  {
+    "scenario_id": "S10",
+    "scenario": "credit_check_prequalify",
+    "goal": "Submit a credit prequalification request with credit score and other financial fields.",
+    "host_variants": ["api.fincheck.example", "finance.fincheck.example", "mobile.fincheck.example"],
+    "endpoint_families": ["/api/v1/credit/prequalify", "/v2/credit/precheck", "/v1/finance/eligibility", "/mobile/v1/credit/estimate"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"category": "Financial info", "data_type": "Credit score", "weight": 0.85, "typical_placements": ["body"]},
+      {"category": "Financial info", "data_type": "Other financial info", "weight": 0.75, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Name", "weight": 0.35, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Other info", "weight": 0.35, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S11",
+    "scenario": "health_vitals_symptoms_log",
+    "goal": "Log health info such as symptoms, conditions, and medical record details.",
+    "host_variants": ["api.carelog.example", "health.carelog.example", "mobile.carelog.example"],
+    "endpoint_families": ["/api/v1/health/log", "/v2/health/records", "/v1/medical/entry", "/mobile/v1/health/submit"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"category": "Health and fitness", "data_type": "Health info", "weight": 0.95, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "User IDs", "weight": 0.45, "typical_placements": ["body", "path"]},
+      {"category": "Personal info", "data_type": "Other info", "weight": 0.25, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S12",
+    "scenario": "fitness_activity_sync",
+    "goal": "Sync fitness activity such as steps, workouts, or exercise sessions.",
+    "host_variants": ["api.fitbee.example", "health.fitbee.example", "mobile.fitbee.example"],
+    "endpoint_families": ["/api/v1/fitness/sync", "/v2/activity/sync", "/v1/fitness/activity", "/mobile/v1/activity/batch"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"category": "Health and fitness", "data_type": "Fitness info", "weight": 0.95, "typical_placements": ["body"]},
+      {"category": "Device or other IDs", "data_type": "Device or other IDs", "weight": 0.35, "typical_placements": ["header"]}
+    ]
+  },
+  {
+    "scenario_id": "S13",
+    "scenario": "email_send_via_app",
+    "goal": "Send an email through the app with subject, recipients, and content.",
+    "host_variants": ["api.mailnest.example", "mail.mailnest.example", "mobile.mailnest.example"],
+    "endpoint_families": ["/api/v1/messages/email/send", "/v2/email/send", "/v1/mail/outbox", "/mobile/v1/email/compose"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "text/plain"],
+    "pii_candidates": [
+      {"category": "Messages", "data_type": "Emails", "weight": 0.95, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Email address", "weight": 0.55, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S14",
+    "scenario": "sms_send_or_log",
+    "goal": "Send or log an SMS/MMS message with sender/recipient numbers and message content.",
+    "host_variants": ["api.chatnest.example", "sms.chatnest.example", "mobile.chatnest.example"],
+    "endpoint_families": ["/api/v1/messages/sms/send", "/v2/sms/send", "/v1/notifications/sms", "/mobile/v1/sms/outgoing"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "text/plain"],
+    "pii_candidates": [
+      {"category": "Messages", "data_type": "SMS or MMS", "weight": 0.95, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Phone number", "weight": 0.55, "typical_placements": ["body", "query"]}
+    ]
+  },
+  {
+    "scenario_id": "S15",
+    "scenario": "in_app_chat_message",
+    "goal": "Send an in-app message (chat) including thread metadata and content.",
+    "host_variants": ["api.chatnest.example", "realtime.chatnest.example", "mobile.chatnest.example"],
+    "endpoint_families": ["/api/v1/chat/{thread_id}/messages", "/v2/conversations/{thread_id}/send", "/v1/messages/send", "/mobile/v1/chat/send"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "text/plain"],
+    "pii_candidates": [
+      {"category": "Messages", "data_type": "Other in-app messages", "weight": 0.95, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "User IDs", "weight": 0.35, "typical_placements": ["body", "query"]}
+    ]
+  },
+  {
+    "scenario_id": "S16",
+    "scenario": "photo_upload_metadata_only",
+    "goal": "Upload photo metadata (filename, size, mime) without binary content.",
+    "host_variants": ["api.mediavault.example", "media.mediavault.example", "mobile.mediavault.example"],
+    "endpoint_families": ["/api/v1/photos/upload", "/v2/media/photos", "/v1/uploads/photo", "/mobile/v1/photo/register"],
+    "methods": ["POST"],
+    "content_types": ["multipart/form-data", "application/json"],
+    "pii_candidates": [
+      {"category": "Photos and videos", "data_type": "Photos", "weight": 0.85, "typical_placements": ["body"]},
+      {"category": "Files and docs", "data_type": "Files and docs", "weight": 0.35, "typical_placements": ["body"]}
+    ],
+    "notes": "Metadata and placeholders only; do not include actual image bytes - instead, insert placeholders to replace with real bytes."
+  },
+  {
+    "scenario_id": "S17",
+    "scenario": "video_upload_metadata_only",
+    "goal": "Upload video metadata (filename, duration, codec) without binary content.",
+    "host_variants": ["api.mediavault.example", "media.mediavault.example", "mobile.mediavault.example"],
+    "endpoint_families": ["/api/v1/videos/upload", "/v2/media/videos", "/v1/uploads/video", "/mobile/v1/video/register"],
+    "methods": ["POST"],
+    "content_types": ["multipart/form-data", "application/json"],
+    "pii_candidates": [
+      {"category": "Photos and videos", "data_type": "Videos", "weight": 0.85, "typical_placements": ["body"]},
+      {"category": "Files and docs", "data_type": "Files and docs", "weight": 0.35, "typical_placements": ["body"]}
+    ],
+    "notes": "Metadata and placeholders only; do not include video bytes - instead, insert placeholders to replace with real bytes."
+  },
+  {
+    "scenario_id": "S18",
+    "scenario": "voice_recording_metadata_only",
+    "goal": "Upload voice/sound recording metadata without binary audio.",
+    "host_variants": ["api.audiobox.example", "audio.audiobox.example", "mobile.audiobox.example"],
+    "endpoint_families": ["/api/v1/audio/voice/upload", "/v2/audio/recordings", "/v1/voice/clip/register", "/mobile/v1/audio/voice/register"],
+    "methods": ["POST"],
+    "content_types": ["multipart/form-data", "application/json"],
+    "pii_candidates": [
+      {"category": "Audio files", "data_type": "Voice or sound recordings", "weight": 0.85, "typical_placements": ["body"]},
+      {"category": "Files and docs", "data_type": "Files and docs", "weight": 0.25, "typical_placements": ["body"]}
+    ],
+    "notes": "Metadata and placeholders only; no audio bytes - instead, insert placeholders to replace with real bytes."
+  },
+  {
+    "scenario_id": "S19",
+    "scenario": "music_library_sync",
+    "goal": "Sync user music file metadata or library entries.",
+    "host_variants": ["api.audiobox.example", "music.audiobox.example", "mobile.audiobox.example"],
+    "endpoint_families": ["/api/v1/music/library/sync", "/v2/music/files", "/v1/music/metadata", "/mobile/v1/music/sync"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"category": "Audio files", "data_type": "Music files", "weight": 0.9, "typical_placements": ["body"]},
+      {"category": "Audio files", "data_type": "Other audio files", "weight": 0.35, "typical_placements": ["body"]}
+    ],
+    "notes": "Use file names/IDs/metadata only; no binary - instead, insert placeholders to replace with real bytes."
+  },
+  {
+    "scenario_id": "S20",
+    "scenario": "file_document_metadata_upload",
+    "goal": "Upload generic file/document metadata (names, paths, sizes) without binary content.",
+    "host_variants": ["api.docushare.example", "files.docushare.example", "mobile.docushare.example"],
+    "endpoint_families": ["/api/v1/files/metadata", "/v2/docs/metadata", "/v1/uploads/metadata", "/mobile/v1/files/register"],
+    "methods": ["POST"],
+    "content_types": ["multipart/form-data", "application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"category": "Files and docs", "data_type": "Files and docs", "weight": 0.95, "typical_placements": ["body"]}
+    ],
+    "notes": "Metadata and placeholders only; do not include file bytes - instead, insert placeholders to replace with real bytes."
+  },
+  {
+    "scenario_id": "S21",
+    "scenario": "calendar_event_sync",
+    "goal": "Create or sync calendar events including notes and attendees.",
+    "host_variants": ["api.calhub.example", "calendar.calhub.example", "mobile.calhub.example"],
+    "endpoint_families": ["/api/v1/calendar/sync", "/v2/calendar/events/sync", "/v1/events/import", "/mobile/v1/calendar/upload"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "multipart/form-data"],
+    "pii_candidates": [
+      {"category": "Calendar", "data_type": "Calendar events", "weight": 0.95, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Email address", "weight": 0.25, "typical_placements": ["body"]},
+      {"category": "Location", "data_type": "Approximate location", "weight": 0.25, "typical_placements": ["body"]}
+    ],
+    "notes": "multipart should be textual fields only."
+  },
+  {
+    "scenario_id": "S22",
+    "scenario": "contacts_sync_upload",
+    "goal": "Upload/sync contacts and social graph indicators.",
+    "host_variants": ["api.chatnest.example", "sync.chatnest.example", "mobile.chatnest.example"],
+    "endpoint_families": ["/api/v1/contacts/sync", "/v2/contacts/upload", "/v1/addressbook/import", "/mobile/v1/contacts/batch"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "multipart/form-data"],
+    "pii_candidates": [
+      {"category": "Contacts", "data_type": "Contacts", "weight": 0.95, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Name", "weight": 0.35, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Phone number", "weight": 0.25, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "Email address", "weight": 0.25, "typical_placements": ["body"]}
+    ],
+    "notes": "multipart should be textual contact entries only."
+  },
+  {
+    "scenario_id": "S23",
+    "scenario": "location_checkin_coarse",
+    "goal": "Coarse location check-in for recommendations or local content.",
+    "host_variants": ["api.maplite.example", "location.maplite.example", "edge.maplite.example"],
+    "endpoint_families": ["/api/v1/location/checkin", "/v2/geo/checkin", "/v1/places/nearby", "/mobile/v1/location/coarse"],
+    "methods": ["POST", "GET"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "(none)"],
+    "pii_candidates": [
+      {"category": "Location", "data_type": "Approximate location", "weight": 0.95, "typical_placements": ["query", "body"]},
+      {"category": "Device or other IDs", "data_type": "Device or other IDs", "weight": 0.35, "typical_placements": ["header"]}
+    ],
+    "notes": "Use city-level/region/geohash with reduced precision; avoid precise coordinates."
+  },
+  {
+    "scenario_id": "S24",
+    "scenario": "location_gps_precise_ping",
+    "goal": "Precise GPS location update for navigation or delivery tracking.",
+    "host_variants": ["api.maplite.example", "mobile.maplite.example"],
+    "endpoint_families": ["/api/v1/location/gps", "/v2/track/gps", "/v1/locations/update", "/mobile/v1/gps/ping"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"category": "Location", "data_type": "Precise location", "weight": 0.95, "typical_placements": ["body"]},
+      {"category": "Device or other IDs", "data_type": "Device or other IDs", "weight": 0.25, "typical_placements": ["header"]}
+    ],
+    "notes": "Use plausible but synthetic coordinates; avoid linking to real residences."
+  },
+  {
+    "scenario_id": "S25",
+    "scenario": "app_crash_report",
+    "goal": "Report a crash with stack traces and diagnostic context.",
+    "host_variants": ["crash.fitbee.example", "telemetry.fitbee.example"],
+    "endpoint_families": ["/api/v1/crash/report", "/v2/errors/crash", "/mobile/v1/diagnostics/crash", "/v1/logs/crash"],
+    "methods": ["POST"],
+    "content_types": ["application/json"],
+    "pii_candidates": [
+      {"category": "App info and performance", "data_type": "Crash logs", "weight": 0.95, "typical_placements": ["body"]},
+      {"category": "App info and performance", "data_type": "Diagnostics", "weight": 0.7, "typical_placements": ["body"]},
+      {"category": "App info and performance", "data_type": "Other app performance data", "weight": 0.35, "typical_placements": ["body"]},
+      {"category": "Device or other IDs", "data_type": "Device or other IDs", "weight": 0.35, "typical_placements": ["body", "header"]}
+    ]
+  },
+  {
+    "scenario_id": "S26",
+    "scenario": "performance_heartbeat",
+    "goal": "Send periodic performance metrics (battery, latency, CPU/memory, startup time).",
+    "host_variants": ["telemetry.chatnest.example", "api.chatnest.example"],
+    "endpoint_families": ["/api/v1/telemetry/heartbeat", "/v2/perf/heartbeat", "/mobile/v1/metrics/performance", "/v1/diagnostics/ping"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"category": "App info and performance", "data_type": "Diagnostics", "weight": 0.85, "typical_placements": ["body"]},
+      {"category": "App info and performance", "data_type": "Other app performance data", "weight": 0.55, "typical_placements": ["body"]},
+      {"category": "Device or other IDs", "data_type": "Device or other IDs", "weight": 0.25, "typical_placements": ["header"]}
+    ]
+  },
+  {
+    "scenario_id": "S27",
+    "scenario": "user_generated_content_posts",
+    "goal": "Create user-generated content such as posts, comments, bios, notes, or reviews.",
+    "host_variants": ["api.chatnest.example", "community.chatnest.example", "mobile.chatnest.example"],
+    "endpoint_families": ["/api/v1/content/post", "/v2/community/posts", "/v1/users/{user_id}/bio", "/mobile/v1/ugc/submit"],
+    "methods": ["POST", "PUT", "PATCH"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "text/plain"],
+    "pii_candidates": [
+      {"category": "App activity", "data_type": "Other user-generated content", "weight": 0.95, "typical_placements": ["body"]},
+      {"category": "Personal info", "data_type": "User IDs", "weight": 0.45, "typical_placements": ["path", "body"]}
+    ],
+    "notes": "Use varied content types (review text, bio text, open-ended answers)."
+  },
+  {
+    "scenario_id": "S28",
+    "scenario": "negative_no_pii_static_asset",
+    "goal": "Negative control: fetch a static asset with no user data.",
+    "host_variants": ["cdn.fitbee.example", "static.shoplite.example"],
+    "endpoint_families": ["/assets/app.css", "/static/main.js", "/public/logo.svg", "/assets/fonts/regular.woff2"],
+    "methods": ["GET"],
+    "content_types": ["(none)"],
+    "pii_candidates": [],
+    "negative_control": true,
+    "notes": "No cookies, no auth, no device IDs."
+  },
+  {
+    "scenario_id": "S29",
+    "scenario": "negative_no_pii_feature_flags",
+    "goal": "Negative control: poll feature flags/config without identifiers.",
+    "host_variants": ["config.fitbee.example", "api.shoplite.example"],
+    "endpoint_families": ["/api/v1/config/features", "/v2/config", "/v1/flags", "/mobile/v1/config/feature-flags"],
+    "methods": ["GET"],
+    "content_types": ["(none)"],
+    "pii_candidates": [],
+    "negative_control": true,
+    "notes": "Allow non-direct-PII params like app_version, locale; avoid tokens/IDs."
+  }
+]

@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "data_types": {
+            "type": "array",
+            "description": "A list of all PII data types that are present in the given HTTP message according to the given label scheme.",
+            "items": {
+                "type": "string",
+                "description": "A PII data type that is present in the given HTTP message."
+            }
+        }
+    },
+    "required": [ "data_types" ],
+    "additionalProperties": false
+}

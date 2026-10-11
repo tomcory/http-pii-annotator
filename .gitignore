@@ -1,0 +1,34 @@
+# environments and secrets
+.env
+venv/
+.venv/
+
+# pipeline runs (the outputs of the paper under data/annotations are kept)
+/output/
+synthetic_traffic_generator/output/
+
+# real traffic and exemplar pools derived from it (generator)
+real_data/
+*.db
+*.db-shm
+*.db-wal
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# editors and OS
+.idea/
+.vscode/
+.DS_Store
+
+# local copy of the paper
+*.pdf
+
+*.log
+
+# packaging
+*.egg-info/
+build/
+dist/

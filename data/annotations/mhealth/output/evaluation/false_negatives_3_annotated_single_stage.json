@@ -1,0 +1,1138 @@
+[
+  {
+    "label": "Screen resolution",
+    "value": "1080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2400"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "1080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2400"
+  },
+  {
+    "label": "Timezone",
+    "value": "UTC+00:00"
+  },
+  {
+    "label": "Timezone",
+    "value": "UTC+01:00"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2556"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "1179"
+  },
+  {
+    "label": "Name",
+    "value": "Ay\u2248\u00fce Y\u0192\u00b1lmaz"
+  },
+  {
+    "label": "Name",
+    "value": "Kov\u221a\u00b0cs \u221a\u00e2va"
+  },
+  {
+    "label": "City",
+    "value": "Ciudad de M\u221a\u00a9xico"
+  },
+  {
+    "label": "City",
+    "value": "S\u221a\u00a3o Paulo"
+  },
+  {
+    "label": "Email address",
+    "value": "jake.t+fitness@example.com"
+  },
+  {
+    "label": "Age",
+    "value": "1995"
+  },
+  {
+    "label": "Fitness goals",
+    "value": "Reduce stress through exercise"
+  },
+  {
+    "label": "Step count",
+    "value": "15023"
+  },
+  {
+    "label": "Heart rate",
+    "value": "77"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "happy"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "low"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "Work deadline causing anxiety"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "Cramps during night caused sleep interruption"
+  },
+  {
+    "label": "Heart rate",
+    "value": "53"
+  },
+  {
+    "label": "Heart rate",
+    "value": "82"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "none"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "Meditation helped with falling asleep faster"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "Alcohol consumption affected sleep quality"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "Partner's snoring caused interruptions"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "tired"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "high"
+  },
+  {
+    "label": "Heart rate",
+    "value": "74"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "high"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "Good sleep after yoga session"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "Work stress affecting sleep quality"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "Room temperature too warm, disrupted sleep"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "Reduced screen time before bed helped"
+  },
+  {
+    "label": "Heart rate",
+    "value": "58"
+  },
+  {
+    "label": "Heart rate",
+    "value": "67"
+  },
+  {
+    "label": "Body temperature",
+    "value": "98.1"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "Anxiety about upcoming presentation affected sleep"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "Morning exercise routine improved sleep depth"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "Bedtime: 22:30, wake refreshed"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "6.5"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "calm"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "low"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "8"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "22:30"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "7.5"
+  },
+  {
+    "label": "Step count",
+    "value": "8500"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "hopeful"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "7.5"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "high"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "excellent"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "improving"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "tired"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "neutral"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "moderate"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "improving"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "7.5"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "8"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "none"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "6"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "8"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "strong"
+  },
+  {
+    "label": "Country",
+    "value": "US"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "high"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "overwhelmed"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "poor"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "stable"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "low"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "7 heures"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "high"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "8 hours per night"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "7h por noite"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "poor"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "7-8 uur"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "gereizt"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "hoch"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "6 Stunden"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "stable"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "moderate"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "normal"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "Sleeps 7 hours per night"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "anxious"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "medium"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "low"
+  },
+  {
+    "label": "Period symptoms",
+    "value": "hum\u221a\u2202rsv\u221a\u00a7ngningar"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "nedst\u221a\u00a7md"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "5 timmar"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "high"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "8h"
+  },
+  {
+    "label": "Period symptoms",
+    "value": "heavy cramps"
+  },
+  {
+    "label": "Period symptoms",
+    "value": "nausea"
+  },
+  {
+    "label": "Period symptoms",
+    "value": "dizziness"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "7-8 hours"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "high"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "4 hours"
+  },
+  {
+    "label": "Period symptoms",
+    "value": "c\u221a\u2265licos"
+  },
+  {
+    "label": "Name",
+    "value": "Mar\u221a\u2260a Gonz\u221a\u00b0lez"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "5-6 hours"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "8 horas"
+  },
+  {
+    "label": "Period symptoms",
+    "value": "\u2014\u00c5\u2014\u00c9\u2013\u00a5\u2013\u00e6\u2014\u00c4\u2013\u00e6\u2013\u2265\u2013\u220f"
+  },
+  {
+    "label": "Period symptoms",
+    "value": "\u2013\u2264\u2013\u2211\u2013\u00a5\u2014\u00c9\u2014\u00c7\u2013\u220f\u2013\u00b5"
+  },
+  {
+    "label": "Period symptoms",
+    "value": "\u2013\u00f8\u2013\u00b5\u2014\u00c4\u2013\u00b5\u2013\u00f8\u2013\u221e\u2013\u00a5\u2014\u00e3 \u2013\u03a9\u2013\u221e\u2014\u00c5\u2014\u00c7\u2014\u00c4\u2013\u00e6\u2013\u00b5\u2013\u03a9\u2013\u220f\u2014\u00e8"
+  },
+  {
+    "label": "Birth control",
+    "value": "\u2013\u00fb\u2014\u00c4\u2013\u221e\u2013\u00aa\u2014\u00e5\u2013\u03a9\u2014\u00e3\u2013\u00b5 \u2013\u222b\u2013\u00e6\u2013\u03a9\u2014\u00c7\u2014\u00c4\u2013\u221e\u2014\u00dc\u2013\u00b5\u2013\u00f8\u2014\u00c7\u2013\u220f\u2013\u2264\u2014\u00e3"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "\u2014\u00c5\u2013\u00f8\u2013\u00e6\u2013\u222b\u2013\u00e6\u2013\u03c0\u2013\u03a9\u2013\u00e6\u2013\u00b5"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "\u2013\u03a9\u2013\u220f\u2013\u2211\u2013\u222b\u2013\u220f\u2013\u03c0"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "7 \u2014\u00e1\u2013\u221e\u2014\u00c5\u2013\u00e6\u2013\u2264"
+  },
+  {
+    "label": "Name",
+    "value": "\u2013\u00ea\u2013\u03a9\u2013\u03a9\u2013\u221e \u2013\u00fc\u2013\u00b5\u2014\u00c7\u2014\u00c4\u2013\u00e6\u2013\u2264\u2013\u221e"
+  },
+  {
+    "label": "Gender",
+    "value": "\u2013\u00f1\u2013\u00b5\u2013\u03a9\u2014\u00c5\u2013\u222b\u2013\u220f\u2013\u03c0"
+  },
+  {
+    "label": "City",
+    "value": "\u2013\u00fa\u2013\u00e6\u2014\u00c5\u2013\u222b\u2013\u2264\u2013\u221e"
+  },
+  {
+    "label": "Country",
+    "value": "\u2013\u2020\u2013\u00e6\u2014\u00c5\u2014\u00c5\u2013\u220f\u2014\u00e8"
+  },
+  {
+    "label": "Glucose levels",
+    "value": "95"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "128"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "82"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "135"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "90"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "115"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "72"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "122"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "78"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "118"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "74"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "125"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "84"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "130"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "85"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "145"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "95"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "120"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "78"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "122"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "79"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "135"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "85"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "115"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "75"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "120"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "78"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "6"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "123"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "79"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "7"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "120"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "78"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"frequency\":\"weekly\",\"last_encounter\":\"2026-01-12\""
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"active\":true,\"partner_type\":\"monogamous\""
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"status\":\"active\",\"partners\":1"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"active\":true"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"engaged\":true,\"frequency\":\"monthly\""
+  },
+  {
+    "label": "Sexual activity",
+    "value": "true"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"active\":true"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"status\":\"active\",\"partners\":1,\"protection\":\"always\""
+  },
+  {
+    "label": "Sexual activity",
+    "value": "sex_partners=1"
+  },
+  {
+    "label": "Body temperature",
+    "value": "36.6 \u00ac\u221eC"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"active\":true,\"frequency\":\"2-3 times per week\""
+  },
+  {
+    "label": "Period start date",
+    "value": "2026-02-12"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"active\":true,\"partners\":1"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"active\":true,\"frequency\":\"weekly\""
+  },
+  {
+    "label": "Period start date",
+    "value": "2026-02-01"
+  },
+  {
+    "label": "Period symptoms",
+    "value": "Cramps, Fatigue"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"active\":true,\"partner_count\":1,\"last_activity\":\"2026-01-10\""
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"active\":true,\"partners\":1"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"status\":\"active\",\"partners\":1,\"protection_used\":\"N/A - IUD\""
+  },
+  {
+    "label": "Period symptoms",
+    "value": "Headache, Bloating"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"active\":true,\"partner_count\":1,\"protection\":\"IUD\""
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"sexually_active\":true,\"partners\":1"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "happy"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "low"
+  },
+  {
+    "label": "Body temperature",
+    "value": "36.7 \u00ac\u221eC"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"sexually_active\":true,\"partners\":1,\"frequency\":\"weekly\""
+  },
+  {
+    "label": "Sexual activity",
+    "value": "yes"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"active\":true,\"partner_count\":1,\"protection\":\"consistent\""
+  },
+  {
+    "label": "Period symptoms",
+    "value": "Cramps, Fatigue"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"active\":true,\"partners\":1"
+  },
+  {
+    "label": "Period symptoms",
+    "value": "Cramps, Mood swings"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"active\":true,\"protection\":\"N/A - implant\""
+  },
+  {
+    "label": "Period symptoms",
+    "value": "Cramps, Back pain"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "true"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"active\":true,\"partners\":1,\"frequency\":\"weekly\""
+  },
+  {
+    "label": "Period symptoms",
+    "value": "Fatigue, Cramps"
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"active\":true,\"partners\":1,\"last_activity\":\"2026-01-12\""
+  },
+  {
+    "label": "Sexual activity",
+    "value": "\"active\":true,\"partners\":1,\"trying_to_conceive\":true"
+  },
+  {
+    "label": "Device model",
+    "value": "Android"
+  },
+  {
+    "label": "Fitness goals",
+    "value": "\u00ca\u00d8\u00e9\u00ca\u00fa\u00e010km\u00cb\u00b5\u221e\u201e\u00c7\u00e3"
+  },
+  {
+    "label": "Timezone",
+    "value": "UTC+01:00"
+  },
+  {
+    "label": "OS build",
+    "value": "17.2"
+  },
+  {
+    "label": "Heart rate",
+    "value": "62 bpm"
+  },
+  {
+    "label": "Heart rate",
+    "value": "98 bpm"
+  },
+  {
+    "label": "Heart rate",
+    "value": "125 bpm"
+  },
+  {
+    "label": "Heart rate",
+    "value": "145 bpm"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "420"
+  },
+  {
+    "label": "Step count",
+    "value": "7234"
+  },
+  {
+    "label": "Age",
+    "value": "45"
+  },
+  {
+    "label": "Body height",
+    "value": "182 cm"
+  },
+  {
+    "label": "Body weight",
+    "value": "85 kg"
+  },
+  {
+    "label": "Body weight goal",
+    "value": "80 kg"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "142"
+  },
+  {
+    "label": "Blood pressure",
+    "value": "92"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "7.75 hours"
+  },
+  {
+    "label": "Fitness goals",
+    "value": "Improve sleep to 7+ hours"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "high"
+  },
+  {
+    "label": "Timezone",
+    "value": "UTC+01:00"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "466\u221a\u00f3466"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "402\u221a\u00f3476"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "320\u221a\u00f3300"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "480\u221a\u00f3480"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "368\u221a\u00f3448"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "336\u221a\u00f3336"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "354\u221a\u00f3230"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "454\u221a\u00f3454"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "354\u221a\u00f3474"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "280\u221a\u00f3280"
+  },
+  {
+    "label": "Body temperature",
+    "value": "98.2 \u00ac\u221eF"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "6.5"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "23:30"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "anxious"
+  },
+  {
+    "label": "Body temperature",
+    "value": "36.9 \u00ac\u221eC"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "8"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "22:00"
+  },
+  {
+    "label": "Body temperature",
+    "value": "36.7 \u00ac\u221eC"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "7.2"
+  },
+  {
+    "label": "Body temperature",
+    "value": "36.6 \u00ac\u221eC"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "neutral"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "moderate"
+  },
+  {
+    "label": "Name",
+    "value": "Lucas M\u221a\u00baller"
+  },
+  {
+    "label": "Body temperature",
+    "value": "36.9 \u00ac\u221eC"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "moderate"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "5.5"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "23:00"
+  },
+  {
+    "label": "Body temperature",
+    "value": "36.5 \u00ac\u221eC"
+  },
+  {
+    "label": "Body temperature",
+    "value": "98.6 \u00ac\u221eF"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "sad"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "5"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "01:00"
+  },
+  {
+    "label": "Body temperature",
+    "value": "36.5 \u00ac\u221eC"
+  },
+  {
+    "label": "Body temperature",
+    "value": "37.1 \u00ac\u221eC"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "content"
+  },
+  {
+    "label": "Body temperature",
+    "value": "37.2 \u00ac\u221eC"
+  },
+  {
+    "label": "Body temperature",
+    "value": "36.7 \u00ac\u221eC"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "happy"
+  },
+  {
+    "label": "Mental wellbeing",
+    "value": "low"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "8"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "22:00"
+  },
+  {
+    "label": "Body temperature",
+    "value": "98.0 \u00ac\u221eF"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "4.5"
+  },
+  {
+    "label": "Body temperature",
+    "value": "36.4 \u00ac\u221eC"
+  },
+  {
+    "label": "Body temperature",
+    "value": "98.2 \u00ac\u221eF"
+  },
+  {
+    "label": "Sleep habits",
+    "value": "7.2"
+  },
+  {
+    "label": "Body temperature",
+    "value": "36.6 \u00ac\u221eC"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2400\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "1920\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2556\u221a\u00f31179"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2400\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2400\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2176\u221a\u00f31812"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2340\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "3200\u221a\u00f31440"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "3120\u221a\u00f31440"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2796\u221a\u00f31290"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2340\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2560\u221a\u00f31440"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2340\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2800\u221a\u00f31260"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2532\u221a\u00f31170"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2664\u221a\u00f31200"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2400\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2772\u221a\u00f31240"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2400\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2340\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2208\u221a\u00f31840"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2400\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2448\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2400\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2340\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2778\u221a\u00f31284"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2400\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2000\u221a\u00f32296"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2400\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2400\u221a\u00f31080"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2732\u221a\u00f32048"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "3024\u221a\u00f31964"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2880\u221a\u00f31800"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2560\u221a\u00f31600"
+  },
+  {
+    "label": "Screen resolution",
+    "value": "2360\u221a\u00f31640"
+  }
+]

@@ -1,0 +1,446 @@
+[
+  {
+    "label": "Diagnostics",
+    "value": "{\"device_model\":\"SM-G991B\",\"os\":\"Android 13\",\"app_version\":\"4.2.1\",\"memory_mb\":6144,\"storage_available_gb\":32.5}"
+  },
+  {
+    "label": "Email address",
+    "value": "emily.watson@example.co.uk"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"install_referrer\":\"utm_source=google_play\",\"first_open_time\":1699800000000}"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"rooted\":false,\"emulator\":false,\"debuggable\":false}"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"java_version\":\"11\",\"heap_max\":256,\"heap_used\":128}"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"manufacturer\":\"realme\",\"brand\":\"realme\",\"device\":\"RMX3031\"}"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"crashes_last_24h\":0,\"anrs_last_24h\":0,\"oom_last_24h\":0}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"type\":\"scroll\",\"depth\":0.75}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"add_to_wishlist\",\"sku\":\"SKU_12345\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "review_submitted"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"promo_code_applied\",\"code\":\"SAVE20\",\"discount\":15.99,\"timestamp\":1659672000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"notification_dismissed\",\"campaign\":\"weekend_deals\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"profile_update\",\"field\":\"shipping_address\",\"timestamp\":1659684000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event_type\":\"conversion\",\"experiment\":\"new_checkout_flow\",\"conversion_type\":\"purchase\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"Live Chat Message Sent\",\"message_length\":45}"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Customer asked about sizing for running shoes, recommended size 10 based on their usual fit"
+  },
+  {
+    "label": "App interactions",
+    "value": "qr_code_scanned"
+  },
+  {
+    "label": "Other actions",
+    "value": "product_added_to_cart"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"feature_discovery\",\"feature\":\"ar_view\",\"discovery_method\":\"onboarding\",\"timestamp\":1659714000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"name\":\"subscription_payment_success\",\"plan\":\"premium_monthly\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"app_update\",\"previous_version\":\"4.5.0\",\"new_version\":\"5.0.0\",\"timestamp\":1659726000000}"
+  },
+  {
+    "label": "App interactions",
+    "value": "feedback_submitted"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Notify me when items on my wishlist go on sale"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"voice_search_initiated\",\"timestamp\":1659756000000}"
+  },
+  {
+    "label": "App interactions",
+    "value": "barcode_scanned"
+  },
+  {
+    "label": "Other actions",
+    "value": "barcode_added_to_cart"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"accessibility_feature_used\",\"feature\":\"screen_reader\",\"duration_sec\":120,\"timestamp\":1659762000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"product_comparison_item_added\",\"product\":\"SKU_101\"}"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Looking for the best value for money wireless earbuds"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"loyalty_points_earned\",\"points\":150,\"reason\":\"purchase\",\"timestamp\":1659780000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"loyalty_points_redeemed\",\"points\":500,\"reward\":\"10_voucher\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "error_occurred"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "App crashed during payment processing, please fix this urgently"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"type\":\"tutorial_skipped\",\"step\":2,\"reason\":\"already_familiar\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"name\":\"one_click_purchase_initiated\",\"product\":\"SKU_789\",\"price\":49.99}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"in_app_message_shown\",\"message_id\":\"IAM_SUMMER_SALE\",\"timestamp\":1659828000000}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"crash_occurred\",\"exception\":\"NullPointerException\",\"timestamp\":1659840000000,\"stack_trace\":\"at com.shoplite.CartActivity.addToCart(CartActivity.java:145)\"}"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Browsed electronics section, compared 3 headphones, added one to wishlist"
+  },
+  {
+    "label": "App interactions",
+    "value": "home_search"
+  },
+  {
+    "label": "App interactions",
+    "value": "view_menu"
+  },
+  {
+    "label": "Address",
+    "value": "\u2030\u220f\u00e4\u00ca\u00b5\u2211\u00c2\u220f\u00c7\u00ca\u00b5\u00b6\u2030\u220f\u00fa\u00ca\u00f1\u221e\u00c2\u00e5\u222b\u00c8\u00f4\u00dc\u00c2\u00c6\u2202\u00c2\u00f2\u00a5\u00c1\u00e9\u00d8\u00cb\u2211\u00d81000\u00c2\u00e8\u221115\u00ca\u2020\u00e3"
+  },
+  {
+    "label": "Other info",
+    "value": "2.1"
+  },
+  {
+    "label": "Health info",
+    "value": "82"
+  },
+  {
+    "label": "SMS or MMS",
+    "value": "Merci pour votre achat! Votre num\u221a\u00a9ro de commande est CN-2024-78432. Vous recevrez une confirmation par email."
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "Thanks for the update! I'll review the documents and get back to you by end of day."
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "The doctor appointment is confirmed for next Tuesday at 2:30pm. Don't forget to bring your insurance card."
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "The new button styles look great! Can we try a slightly darker shade of blue for the hover state?"
+  },
+  {
+    "label": "User IDs",
+    "value": "@designer_alice"
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "Mom called and asked if we're coming for Thanksgiving. Let me know what you think."
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "I just finished reading the last chapter. Wow, what a plot twist! I did not see that coming at all. Who wants to discuss it this weekend?"
+  },
+  {
+    "label": "User IDs",
+    "value": "pet_owner_5678"
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "Just finished my first cable knit sweater! It took me three weeks but I'm so proud of how it turned out. Sharing photos in the group album."
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "Attention all gardeners! The community plant swap is happening this Saturday at the community center. Bring your extra seedlings and cuttings to trade with neighbors."
+  },
+  {
+    "label": "Files and docs",
+    "value": "Work/Projects/Q1_Report"
+  },
+  {
+    "label": "Photos",
+    "value": "medical_scan_xray_chest_20240315.dcm.png"
+  },
+  {
+    "label": "Purchase history",
+    "value": "Family Premium"
+  },
+  {
+    "label": "Files and docs",
+    "value": "Tax Return"
+  },
+  {
+    "label": "Sexual orientation",
+    "value": "Long-term relationship"
+  },
+  {
+    "label": "Files and docs",
+    "value": "journal_jan_2024.mp3"
+  },
+  {
+    "label": "Files and docs",
+    "value": "interview_candidate_recording.ogg"
+  },
+  {
+    "label": "Files and docs",
+    "value": "explosion_effect.wav"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Sound effect recording for game development project. Contains explosion sound created using household items."
+  },
+  {
+    "label": "Files and docs",
+    "value": "therapy_session_notes.m4a"
+  },
+  {
+    "label": "Files and docs",
+    "value": "workout_motivation_mix.mp3"
+  },
+  {
+    "label": "Files and docs",
+    "value": "leccion_espanol_01.mp3"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Hola, bienvenidos a la leccion numero uno de espanol para principiantes. Hoy aprenderemos los saludos basicos. Hola significa hello, buenos dias significa good morning."
+  },
+  {
+    "label": "Files and docs",
+    "value": "beat_sample_v2.mp3"
+  },
+  {
+    "label": "Files and docs",
+    "value": "la_traffic_report.wav"
+  },
+  {
+    "label": "Other info",
+    "value": "45 year old male"
+  },
+  {
+    "label": "Files and docs",
+    "value": "local_band_live_show.mp3"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Recording from last night's show at The Continental Club. Local band 'The Midnight Ramblers' playing their hit song 'Austin Nights'. Great energy from the crowd!"
+  },
+  {
+    "label": "Files and docs",
+    "value": "lecture_civil_war_part1.mp3"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "First lecture of the semester covering the economic, social, and political factors leading to the American Civil War. Topics include slavery, states' rights, and the election of 1860."
+  },
+  {
+    "label": "Files and docs",
+    "value": "standup_set_5min.mp3"
+  },
+  {
+    "label": "Files and docs",
+    "value": "workout_instructions_hiiit.mp3"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Alright everyone, let's get started with this high-intensity interval training session. We're going to do 30 seconds of burpees, followed by 30 seconds of rest. Then mountain climbers for 30 seconds. Let's go! Push yourself to the limit!"
+  },
+  {
+    "label": "User IDs",
+    "value": "CA-234567"
+  },
+  {
+    "label": "Other financial info",
+    "value": "29.99"
+  },
+  {
+    "label": "Files and docs",
+    "value": "luna_rose_debut_single.wav"
+  },
+  {
+    "label": "Other audio files",
+    "value": "Wedding Vows Recording.wav"
+  },
+  {
+    "label": "Other audio files",
+    "value": "Mom Singing Happy Birthday.m4a"
+  },
+  {
+    "label": "Other audio files",
+    "value": "Voice Memo - Interview with Grandma.flac"
+  },
+  {
+    "label": "Other audio files",
+    "value": "Voice Note - Reminder to Call Mom.m4a"
+  },
+  {
+    "label": "Other audio files",
+    "value": "My Sisters Graduation Ceremony Recording.m4a"
+  },
+  {
+    "label": "Other audio files",
+    "value": "Recorded - Grandpa Telling Stories.m4a"
+  },
+  {
+    "label": "Other audio files",
+    "value": "My Therapist Session Recording.m4a"
+  },
+  {
+    "label": "Other audio files",
+    "value": "Kids Singing Happy Birthday to Grandma.m4a"
+  },
+  {
+    "label": "Other audio files",
+    "value": "Family Dinner Conversation Recording.m4a"
+  },
+  {
+    "label": "Other audio files",
+    "value": "Voice Note - Remind Mom About Doctors Appointment.m4a"
+  },
+  {
+    "label": "Approximate location",
+    "value": "TechCorp HQ, Building C, Room 201"
+  },
+  {
+    "label": "Approximate location",
+    "value": "1234 Oak Valley Road, Napa Valley"
+  },
+  {
+    "label": "Approximate location",
+    "value": "Bright Smile Dental Clinic, 45 High Street, London"
+  },
+  {
+    "label": "Approximate location",
+    "value": "AutoCare Plus, 789 Industrial Blvd, San Jose"
+  },
+  {
+    "label": "Approximate location",
+    "value": "Restaurante La Terraza, Plaza Mayor 12, Madrid"
+  },
+  {
+    "label": "Approximate location",
+    "value": "Rose Garden Estate, 567 Blossom Lane, Napa Valley"
+  },
+  {
+    "label": "Approximate location",
+    "value": "123 Oak Street, Apt 4B"
+  },
+  {
+    "label": "Approximate location",
+    "value": "State University Stadium, 1000 College Avenue"
+  },
+  {
+    "label": "Approximate location",
+    "value": "Happy Paws Veterinary Clinic, 678 Pet Care Blvd"
+  },
+  {
+    "label": "Approximate location",
+    "value": "Zahnarztpraxis Dr. Mueller, Hauptstrasse 42, Berlin"
+  },
+  {
+    "label": "Approximate location",
+    "value": "Hospital Sao Lucas, Sala 205, Av. Paulista 1000, Sao Paulo"
+  },
+  {
+    "label": "Approximate location",
+    "value": "First National Bank, 400 Main Street, Suite 300, Closing Room A"
+  },
+  {
+    "label": "Contacts",
+    "value": "name=Olga Ivanova&phone=%2B7-495-987-65-43&email=olga.i%40example.ru&validation=passed"
+  },
+  {
+    "label": "Email address",
+    "value": "f.martin@example.fr"
+  },
+  {
+    "label": "Name",
+    "value": "Francois Martin"
+  },
+  {
+    "label": "Phone number",
+    "value": "+33-4-12-34-56-78"
+  },
+  {
+    "label": "Precise location",
+    "value": "36.7783"
+  },
+  {
+    "label": "Other app performance data",
+    "value": "25200"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Thanks for sharing this! I had a similar experience last year and it really helped to talk to friends about it."
+  },
+  {
+    "label": "User IDs",
+    "value": "note_writer_8291"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Beautiful morning walk through the park. Cherry blossoms are in full bloom!"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Learning a new language at 30 feels daunting but rewarding. Started Spanish lessons last month and can already order coffee and ask for directions!"
+  }
+]

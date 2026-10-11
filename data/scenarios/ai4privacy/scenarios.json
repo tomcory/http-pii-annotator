@@ -1,0 +1,538 @@
+[
+  {
+    "scenario_id": "S01",
+    "scenario": "signup_account_creation",
+    "goal": "Create a new account with core identifiers and basic demographics.",
+    "host_variants": ["api.novabank.example", "mobile.novabank.example", "gateway.novabank.example"],
+    "endpoint_families": ["/api/v1/auth/signup", "/v2/users/register", "/mobile/v1/account/create", "/v1/onboarding/signup"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Name", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "Email", "weight": 0.85, "typical_placements": ["body", "query"]},
+      {"label": "Phone number", "weight": 0.55, "typical_placements": ["body"]},
+      {"label": "Date of birth", "weight": 0.35, "typical_placements": ["body"]},
+      {"label": "Gender", "weight": 0.25, "typical_placements": ["body"]}
+    ],
+    "notes": "Choose a subset per pii_density; vary endpoint and encoding."
+  },
+  {
+    "scenario_id": "S02",
+    "scenario": "login_authentication",
+    "goal": "Authenticate a user; include network metadata and optional account numbers used by the service.",
+    "host_variants": ["auth.shopnest.example", "api.shopnest.example", "edge.shopnest.example"],
+    "endpoint_families": ["/api/v1/auth/login", "/v1/session/login", "/v2/signin", "/mobile/v1/authenticate"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Email", "weight": 0.5, "typical_placements": ["body"]},
+      {"label": "Phone number", "weight": 0.35, "typical_placements": ["body"]},
+      {"label": "IP address", "weight": 0.6, "typical_placements": ["header"]},
+      {"label": "Account numbers", "weight": 0.25, "typical_placements": ["body", "query"]}
+    ]
+  },
+  {
+    "scenario_id": "S03",
+    "scenario": "profile_update_contact_address",
+    "goal": "Update a user profile with contact and address details.",
+    "host_variants": ["api.shopnest.example", "profile.shopnest.example", "mobile.shopnest.example"],
+    "endpoint_families": ["/api/v1/users/{user_id}/profile", "/v2/profile/{user_id}", "/v1/me/profile", "/mobile/v1/account/profile"],
+    "methods": ["PATCH", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Name", "weight": 0.55, "typical_placements": ["body"]},
+      {"label": "Email", "weight": 0.45, "typical_placements": ["body"]},
+      {"label": "Phone number", "weight": 0.45, "typical_placements": ["body"]},
+      {"label": "Address", "weight": 0.6, "typical_placements": ["body"]},
+      {"label": "Zip code", "weight": 0.55, "typical_placements": ["body", "query"]},
+      {"label": "Date of birth", "weight": 0.25, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S04",
+    "scenario": "demographics_sensitive_survey",
+    "goal": "Self-report demographics and special-category attributes in a survey flow.",
+    "host_variants": ["surveys.civicforms.example", "api.civicforms.example"],
+    "endpoint_families": ["/api/v1/surveys/demographics", "/v2/survey/submit", "/v1/profile/demographics", "/mobile/v1/survey/demographics"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "text/plain"],
+    "pii_candidates": [
+      {"label": "Gender", "weight": 0.65, "typical_placements": ["body"]},
+      {"label": "Sexual orientation", "weight": 0.45, "typical_placements": ["body"]},
+      {"label": "Race/ethnicity", "weight": 0.55, "typical_placements": ["body"]},
+      {"label": "Religious beliefs", "weight": 0.4, "typical_placements": ["body"]},
+      {"label": "Political affiliation", "weight": 0.4, "typical_placements": ["body"]},
+      {"label": "Nationality", "weight": 0.35, "typical_placements": ["body"]},
+      {"label": "Citizenship", "weight": 0.35, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S05",
+    "scenario": "family_security_questions",
+    "goal": "Account recovery / security questions with family-related identifiers.",
+    "host_variants": ["auth.shopnest.example", "security.shopnest.example"],
+    "endpoint_families": ["/api/v1/security/questions", "/v2/account/recovery/questions", "/v1/auth/challenge", "/mobile/v1/security/verify"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Mother’s maiden name", "weight": 0.75, "typical_placements": ["body"]},
+      {"label": "Family member names", "weight": 0.65, "typical_placements": ["body"]},
+      {"label": "Date of birth", "weight": 0.25, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S06",
+    "scenario": "checkout_payment",
+    "goal": "E-commerce checkout with card payment and delivery details.",
+    "host_variants": ["checkout.shopnest.example", "api.shopnest.example"],
+    "endpoint_families": ["/api/v1/checkout", "/v2/orders/checkout", "/v1/orders", "/mobile/v1/cart/submit"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "multipart/form-data"],
+    "pii_candidates": [
+      {"label": "Credit card number", "weight": 0.8, "typical_placements": ["body"]},
+      {"label": "Name", "weight": 0.55, "typical_placements": ["body"]},
+      {"label": "Email", "weight": 0.4, "typical_placements": ["body"]},
+      {"label": "Phone number", "weight": 0.35, "typical_placements": ["body"]},
+      {"label": "Address", "weight": 0.6, "typical_placements": ["body"]},
+      {"label": "Zip code", "weight": 0.55, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S07",
+    "scenario": "purchase_history_orders",
+    "goal": "Fetch or submit purchase history and receipts; optionally include subscription info.",
+    "host_variants": ["api.shopnest.example", "edge.shopnest.example"],
+    "endpoint_families": ["/api/v1/users/{user_id}/orders", "/v2/orders?user_id={user_id}", "/v1/purchases/history", "/mobile/v1/orders/history"],
+    "methods": ["GET", "POST"],
+    "content_types": ["application/json", "(none)"],
+    "pii_candidates": [
+      {"label": "Purchase history", "weight": 0.75, "typical_placements": ["body", "query"]},
+      {"label": "Transaction history", "weight": 0.45, "typical_placements": ["body", "query"]},
+      {"label": "Subscription information", "weight": 0.35, "typical_placements": ["body", "query"]},
+      {"label": "Account numbers", "weight": 0.25, "typical_placements": ["query"]}
+    ]
+  },
+  {
+    "scenario_id": "S08",
+    "scenario": "subscription_management",
+    "goal": "Create, update, or cancel a subscription plan.",
+    "host_variants": ["billing.shopnest.example", "api.shopnest.example"],
+    "endpoint_families": ["/api/v1/subscriptions", "/v2/billing/subscriptions", "/v1/plans/manage", "/mobile/v1/subscription/update"],
+    "methods": ["POST", "PATCH", "DELETE"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Subscription information", "weight": 0.8, "typical_placements": ["body"]},
+      {"label": "Account numbers", "weight": 0.35, "typical_placements": ["body", "query"]},
+      {"label": "Email", "weight": 0.25, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S09",
+    "scenario": "bank_account_linking",
+    "goal": "Link a bank account with account/routing numbers and optional details.",
+    "host_variants": ["api.novabank.example", "payments.novabank.example"],
+    "endpoint_families": ["/api/v1/bank/link", "/v2/accounts/link", "/v1/wallet/bank-accounts", "/mobile/v1/banking/add-account"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Bank account number", "weight": 0.8, "typical_placements": ["body"]},
+      {"label": "Routing number", "weight": 0.75, "typical_placements": ["body"]},
+      {"label": "Bank account details", "weight": 0.55, "typical_placements": ["body"]},
+      {"label": "Name", "weight": 0.35, "typical_placements": ["body"]}
+    ],
+    "notes": "Use clearly synthetic ABA/IBAN-like formats; no real bank customer data."
+  },
+  {
+    "scenario_id": "S10",
+    "scenario": "bank_transfer_transaction",
+    "goal": "Initiate a transfer and record transaction history.",
+    "host_variants": ["api.novabank.example", "transfers.novabank.example"],
+    "endpoint_families": ["/api/v1/transfers", "/v2/payments/transfer", "/v1/transactions/send", "/mobile/v1/transfer/create"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Bank account number", "weight": 0.55, "typical_placements": ["body"]},
+      {"label": "Account numbers", "weight": 0.55, "typical_placements": ["body", "query"]},
+      {"label": "Transaction history", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "Financial status", "weight": 0.25, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S11",
+    "scenario": "tax_filing",
+    "goal": "Submit tax forms with tax ID and financial indicators.",
+    "host_variants": ["api.taxmate.example", "mobile.taxmate.example"],
+    "endpoint_families": ["/api/v1/tax/submit", "/v2/filings", "/v1/compliance/tax-return", "/mobile/v1/tax/filing"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "multipart/form-data", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Tax identification number", "weight": 0.8, "typical_placements": ["body"]},
+      {"label": "Social security number", "weight": 0.45, "typical_placements": ["body"]},
+      {"label": "Income level", "weight": 0.65, "typical_placements": ["body"]},
+      {"label": "Financial status", "weight": 0.55, "typical_placements": ["body"]},
+      {"label": "Address", "weight": 0.35, "typical_placements": ["body"]},
+      {"label": "Zip code", "weight": 0.35, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S12",
+    "scenario": "identity_verification_kyc",
+    "goal": "Verify identity using government IDs and birthplace/citizenship attributes (synthetic KYC).",
+    "host_variants": ["identity.civicvault.example", "api.civicvault.example"],
+    "endpoint_families": ["/api/v1/identity/verify", "/v2/kyc/submit", "/v1/verification/identity", "/mobile/v1/identity/check"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "multipart/form-data"],
+    "pii_candidates": [
+      {"label": "Government ID", "weight": 0.75, "typical_placements": ["body"]},
+      {"label": "Passport number", "weight": 0.55, "typical_placements": ["body"]},
+      {"label": "Driver’s license number", "weight": 0.45, "typical_placements": ["body"]},
+      {"label": "Place of birth", "weight": 0.45, "typical_placements": ["body"]},
+      {"label": "Citizenship", "weight": 0.45, "typical_placements": ["body"]},
+      {"label": "Nationality", "weight": 0.35, "typical_placements": ["body"]},
+      {"label": "Date of birth", "weight": 0.4, "typical_placements": ["body"]},
+      {"label": "Name", "weight": 0.35, "typical_placements": ["body"]}
+    ],
+    "notes": "Do not use real document numbers; generate realistic-but-fake formats."
+  },
+  {
+    "scenario_id": "S13",
+    "scenario": "vehicle_registration",
+    "goal": "Register a vehicle and associated identifiers for insurance or DMV-style service.",
+    "host_variants": ["api.autoreg.example", "mobile.autoreg.example"],
+    "endpoint_families": ["/api/v1/vehicles/register", "/v2/auto/registration", "/v1/vehicle/profile", "/mobile/v1/vehicle/add"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Vehicle identification number", "weight": 0.75, "typical_placements": ["body"]},
+      {"label": "License plate number", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "Driver’s license number", "weight": 0.35, "typical_placements": ["body"]},
+      {"label": "Name", "weight": 0.25, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S14",
+    "scenario": "professional_license_verification",
+    "goal": "Verify a professional licence for access to restricted features (e.g., clinician, lawyer, engineer).",
+    "host_variants": ["api.proverify.example", "verify.proverify.example"],
+    "endpoint_families": ["/api/v1/licenses/verify", "/v2/pro/license/check", "/v1/credential/verify", "/mobile/v1/license/validate"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Professional license number", "weight": 0.85, "typical_placements": ["body"]},
+      {"label": "Name", "weight": 0.35, "typical_placements": ["body"]},
+      {"label": "Email", "weight": 0.25, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S15",
+    "scenario": "education_enrolment",
+    "goal": "Enrol in a course/program with student identifiers and education history.",
+    "host_variants": ["api.edunexus.example", "mobile.edunexus.example"],
+    "endpoint_families": ["/api/v1/enrolments", "/v2/education/enrol", "/v1/students/register", "/mobile/v1/education/signup"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "multipart/form-data"],
+    "pii_candidates": [
+      {"label": "Student ID", "weight": 0.75, "typical_placements": ["body"]},
+      {"label": "Education history", "weight": 0.65, "typical_placements": ["body"]},
+      {"label": "Academic records", "weight": 0.55, "typical_placements": ["body"]},
+      {"label": "Name", "weight": 0.35, "typical_placements": ["body"]},
+      {"label": "Date of birth", "weight": 0.25, "typical_placements": ["body"]}
+    ],
+    "notes": "If using multipart/form-data, include only textual fields/metadata; no binary transcripts."
+  },
+  {
+    "scenario_id": "S16",
+    "scenario": "employment_onboarding",
+    "goal": "HR onboarding with employee number, work history, and compensation bands.",
+    "host_variants": ["api.hrflow.example", "mobile.hrflow.example"],
+    "endpoint_families": ["/api/v1/hr/onboarding", "/v2/employees/onboard", "/v1/workforce/profile", "/mobile/v1/hr/setup"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Employee number", "weight": 0.75, "typical_placements": ["body"]},
+      {"label": "Employment history", "weight": 0.65, "typical_placements": ["body"]},
+      {"label": "Income level", "weight": 0.45, "typical_placements": ["body"]},
+      {"label": "Financial status", "weight": 0.25, "typical_placements": ["body"]},
+      {"label": "Name", "weight": 0.3, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S17",
+    "scenario": "insurance_policy_enrolment",
+    "goal": "Create/modify an insurance policy record with policy numbers and emergency contacts.",
+    "host_variants": ["api.insurelane.example", "mobile.insurelane.example"],
+    "endpoint_families": ["/api/v1/insurance/policies", "/v2/policies/enrol", "/v1/coverage/setup", "/mobile/v1/insurance/enrol"],
+    "methods": ["POST", "PATCH"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Insurance policy number", "weight": 0.8, "typical_placements": ["body"]},
+      {"label": "Health insurance number", "weight": 0.55, "typical_placements": ["body"]},
+      {"label": "Emergency contact information", "weight": 0.65, "typical_placements": ["body"]},
+      {"label": "Phone number", "weight": 0.35, "typical_placements": ["body"]},
+      {"label": "Address", "weight": 0.25, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S18",
+    "scenario": "healthcare_patient_portal_record_access",
+    "goal": "Access or update patient record pointers and health information (textual).",
+    "host_variants": ["api.carehub.example", "records.carehub.example", "mobile.carehub.example"],
+    "endpoint_families": ["/api/v1/patient/records", "/v2/medical/records/update", "/v1/health/records", "/mobile/v1/records/sync"],
+    "methods": ["GET", "POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "(none)"],
+    "pii_candidates": [
+      {"label": "Medical record number", "weight": 0.75, "typical_placements": ["body", "query", "path"]},
+      {"label": "Health information (e.g., conditions, treatments)", "weight": 0.75, "typical_placements": ["body"]},
+      {"label": "Date of birth", "weight": 0.3, "typical_placements": ["body"]},
+      {"label": "Name", "weight": 0.25, "typical_placements": ["body"]},
+      {"label": "Health insurance number", "weight": 0.25, "typical_placements": ["body"]}
+    ],
+    "notes": "Do not include binary attachments; keep it text fields."
+  },
+  {
+    "scenario_id": "S19",
+    "scenario": "geolocation_feature_request_coarse",
+    "goal": "Location-based feature using coarse geolocation (non-GPS precise).",
+    "host_variants": ["api.maplite.example", "edge.maplite.example"],
+    "endpoint_families": ["/api/v1/geo/nearby", "/v2/location/approx", "/v1/places/search", "/mobile/v1/location/coarse"],
+    "methods": ["GET", "POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "(none)"],
+    "pii_candidates": [
+      {"label": "Geolocation", "weight": 0.85, "typical_placements": ["query", "body"]},
+      {"label": "IP address", "weight": 0.35, "typical_placements": ["header"]}
+    ],
+    "notes": "Use coarse representations (e.g., city-level, region codes, geohash with reduced precision)."
+  },
+  {
+    "scenario_id": "S20",
+    "scenario": "location_data_gps_precise",
+    "goal": "Precise GPS payload for tracking, navigation, or delivery ETA.",
+    "host_variants": ["api.maplite.example", "mobile.maplite.example"],
+    "endpoint_families": ["/api/v1/location/gps", "/v2/track/gps", "/v1/locations/update", "/mobile/v1/gps/ping"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Location data (GPS)", "weight": 0.9, "typical_placements": ["body"]},
+      {"label": "IP address", "weight": 0.25, "typical_placements": ["header"]}
+    ],
+    "notes": "Use plausible coordinates but synthetic context; avoid real residential coordinates."
+  },
+  {
+    "scenario_id": "S21",
+    "scenario": "ip_access_log_event",
+    "goal": "Security/audit event logging an IP address and optional account number reference.",
+    "host_variants": ["audit.civicvault.example", "api.civicvault.example"],
+    "endpoint_families": ["/api/v1/audit/access", "/v2/security/events", "/v1/logs/access", "/mobile/v1/audit/ping"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "text/plain", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "IP address", "weight": 0.9, "typical_placements": ["header", "body"]},
+      {"label": "Account numbers", "weight": 0.35, "typical_placements": ["body", "query"]}
+    ]
+  },
+  {
+    "scenario_id": "S22",
+    "scenario": "social_media_linking",
+    "goal": "Link a social media handle to a user profile; store handles and account numbers.",
+    "host_variants": ["api.chatnest.example", "profile.chatnest.example"],
+    "endpoint_families": ["/api/v1/social/link", "/v2/social/accounts", "/v1/profile/social", "/mobile/v1/social/connect"],
+    "methods": ["POST", "PATCH"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Social media handles", "weight": 0.85, "typical_placements": ["body"]},
+      {"label": "Account numbers", "weight": 0.35, "typical_placements": ["body", "query"]},
+      {"label": "Email", "weight": 0.2, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S23",
+    "scenario": "driver_and_vehicle_credentials_bundle",
+    "goal": "Driver credential profile for rideshare/fleet: licence + insurance policy + vehicle IDs.",
+    "host_variants": ["api.fleetops.example", "mobile.fleetops.example"],
+    "endpoint_families": ["/api/v1/fleet/driver/profile", "/v2/driver/credentials", "/v1/rideshare/driver/setup", "/mobile/v1/driver/onboard"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "multipart/form-data", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Driver’s license number", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "Insurance policy number", "weight": 0.55, "typical_placements": ["body"]},
+      {"label": "Vehicle identification number", "weight": 0.55, "typical_placements": ["body"]},
+      {"label": "License plate number", "weight": 0.55, "typical_placements": ["body"]},
+      {"label": "Name", "weight": 0.25, "typical_placements": ["body"]}
+    ],
+    "notes": "multipart should be metadata only (e.g., document file_name), no binaries."
+  },
+  {
+    "scenario_id": "S24",
+    "scenario": "banking_account_summary",
+    "goal": "Retrieve or submit a banking summary with financial status and account numbers.",
+    "host_variants": ["api.novabank.example", "edge.novabank.example"],
+    "endpoint_families": ["/api/v1/accounts/summary", "/v2/banking/overview", "/v1/finance/status", "/mobile/v1/accounts/dashboard"],
+    "methods": ["GET", "POST"],
+    "content_types": ["application/json", "(none)"],
+    "pii_candidates": [
+      {"label": "Account numbers", "weight": 0.7, "typical_placements": ["query", "body"]},
+      {"label": "Financial status", "weight": 0.65, "typical_placements": ["body"]},
+      {"label": "Income level", "weight": 0.25, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S25",
+    "scenario": "government_services_application",
+    "goal": "Apply for a government service with SSN/ID, address, and citizenship.",
+    "host_variants": ["api.govforms.example", "mobile.govforms.example"],
+    "endpoint_families": ["/api/v1/applications/submit", "/v2/gov/apply", "/v1/services/application", "/mobile/v1/gov/submit"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "multipart/form-data"],
+    "pii_candidates": [
+      {"label": "Government ID", "weight": 0.65, "typical_placements": ["body"]},
+      {"label": "Social security number", "weight": 0.45, "typical_placements": ["body"]},
+      {"label": "Address", "weight": 0.45, "typical_placements": ["body"]},
+      {"label": "Zip code", "weight": 0.4, "typical_placements": ["body"]},
+      {"label": "Citizenship", "weight": 0.35, "typical_placements": ["body"]},
+      {"label": "Name", "weight": 0.25, "typical_placements": ["body"]}
+    ],
+    "notes": "multipart should include only textual form fields + metadata; no binary uploads."
+  },
+  {
+    "scenario_id": "S26",
+    "scenario": "account_numbers_general_reference",
+    "goal": "Generic account-number reference in a utility/service portal (non-banking).",
+    "host_variants": ["api.utilityhub.example", "mobile.utilityhub.example"],
+    "endpoint_families": ["/api/v1/accounts/lookup", "/v2/customers/account", "/v1/billing/account", "/mobile/v1/account/find"],
+    "methods": ["GET", "POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "(none)"],
+    "pii_candidates": [
+      {"label": "Account numbers", "weight": 0.9, "typical_placements": ["query", "body", "path"]},
+      {"label": "Address", "weight": 0.25, "typical_placements": ["body"]},
+      {"label": "Zip code", "weight": 0.25, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S27",
+    "scenario": "bank_account_details_extended",
+    "goal": "Submit extended bank account details (account metadata beyond raw numbers).",
+    "host_variants": ["api.novabank.example", "kyc.novabank.example"],
+    "endpoint_families": ["/api/v1/bank/details", "/v2/banking/account-details", "/v1/wallet/bank/details", "/mobile/v1/banking/details"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Bank account details", "weight": 0.85, "typical_placements": ["body"]},
+      {"label": "Bank account number", "weight": 0.45, "typical_placements": ["body"]},
+      {"label": "Routing number", "weight": 0.35, "typical_placements": ["body"]}
+    ],
+    "notes": "Examples: account nickname, bank name string, account type; keep synthetic."
+  },
+  {
+    "scenario_id": "S28",
+    "scenario": "passport_only_travel_profile",
+    "goal": "Travel profile storing passport number and nationality/citizenship attributes.",
+    "host_variants": ["api.travelmate.example", "mobile.travelmate.example"],
+    "endpoint_families": ["/api/v1/travel/profile", "/v2/passports/store", "/v1/identity/travel", "/mobile/v1/travel/docs"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Passport number", "weight": 0.8, "typical_placements": ["body"]},
+      {"label": "Nationality", "weight": 0.55, "typical_placements": ["body"]},
+      {"label": "Citizenship", "weight": 0.45, "typical_placements": ["body"]},
+      {"label": "Place of birth", "weight": 0.35, "typical_placements": ["body"]},
+      {"label": "Name", "weight": 0.25, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S29",
+    "scenario": "drivers_license_only_profile",
+    "goal": "Store a driver's licence number for age/identity verification flows.",
+    "host_variants": ["api.civicvault.example", "verify.civicvault.example"],
+    "endpoint_families": ["/api/v1/license/store", "/v2/drivers-license/submit", "/v1/id/license", "/mobile/v1/license/add"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Driver’s license number", "weight": 0.85, "typical_placements": ["body"]},
+      {"label": "Date of birth", "weight": 0.35, "typical_placements": ["body"]},
+      {"label": "Name", "weight": 0.25, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S30",
+    "scenario": "health_biometric_data_nonbinary",
+    "goal": "Upload non-binary biometric data representations (e.g., embeddings/vectors as text) and health info.",
+    "host_variants": ["api.carehub.example", "ml.carehub.example"],
+    "endpoint_families": ["/api/v1/biometrics/upload", "/v2/biometric/embedding", "/v1/health/biometric-data", "/mobile/v1/biometrics/sync"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "text/plain", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Biometric data", "weight": 0.8, "typical_placements": ["body"]},
+      {"label": "Health information (e.g., conditions, treatments)", "weight": 0.35, "typical_placements": ["body"]},
+      {"label": "Medical record number", "weight": 0.25, "typical_placements": ["body"]}
+    ],
+    "notes": "Represent biometric data as textual vectors/hashed templates (not raw binaries)."
+  },
+  {
+    "scenario_id": "S31",
+    "scenario": "license_key_activation",
+    "goal": "Activate software/service using a licence key or serial number.",
+    "host_variants": ["api.softgate.example", "activate.softgate.example"],
+    "endpoint_families": ["/api/v1/licenses/activate", "/v2/activation", "/v1/serial/verify", "/mobile/v1/license/activate"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "License key or serial number", "weight": 0.9, "typical_placements": ["body", "query"]},
+      {"label": "Email", "weight": 0.25, "typical_placements": ["body"]},
+      {"label": "Account numbers", "weight": 0.25, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S32",
+    "scenario": "digital_signature_consent_textual",
+    "goal": "Record consent with a digital signature represented as a textual signature blob (no images).",
+    "host_variants": ["api.civicforms.example", "consent.civicforms.example"],
+    "endpoint_families": ["/api/v1/consent/sign", "/v2/agreements/accept", "/v1/consent/record", "/mobile/v1/consent/submit"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "text/plain"],
+    "pii_candidates": [
+      {"label": "Digital signature", "weight": 0.85, "typical_placements": ["body"]},
+      {"label": "Name", "weight": 0.35, "typical_placements": ["body"]},
+      {"label": "Date of birth", "weight": 0.2, "typical_placements": ["body"]}
+    ],
+    "notes": "Digital signature as text (e.g., cryptographic signature string) rather than drawn image."
+  },
+  {
+    "scenario_id": "S33",
+    "scenario": "address_validation_service",
+    "goal": "Validate an address and ZIP code; may include name/email for contact.",
+    "host_variants": ["api.addrcheck.example", "edge.addrcheck.example"],
+    "endpoint_families": ["/api/v1/address/validate", "/v2/addresses/verify", "/v1/geo/address-check", "/mobile/v1/address/validate"],
+    "methods": ["POST", "GET"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "(none)"],
+    "pii_candidates": [
+      {"label": "Address", "weight": 0.85, "typical_placements": ["body", "query"]},
+      {"label": "Zip code", "weight": 0.85, "typical_placements": ["body", "query"]},
+      {"label": "Name", "weight": 0.2, "typical_placements": ["body"]},
+      {"label": "Email", "weight": 0.2, "typical_placements": ["body"]}
+    ]
+  },
+  {
+    "scenario_id": "S34",
+    "scenario": "negative_no_pii_static_asset",
+    "goal": "Negative control: fetch a static asset with no PII.",
+    "host_variants": ["cdn.shopnest.example", "static.civicforms.example"],
+    "endpoint_families": ["/assets/app.css", "/static/main.js", "/public/logo.svg", "/assets/fonts/regular.woff2"],
+    "methods": ["GET"],
+    "content_types": ["(none)"],
+    "pii_candidates": [],
+    "negative_control": true,
+    "notes": "Keep headers minimal; no identifiers."
+  },
+  {
+    "scenario_id": "S35",
+    "scenario": "negative_no_pii_feature_flags",
+    "goal": "Negative control: poll config without PII.",
+    "host_variants": ["config.shopnest.example", "api.shopnest.example"],
+    "endpoint_families": ["/api/v1/config/features", "/v2/config", "/v1/flags", "/mobile/v1/config/feature-flags"],
+    "methods": ["GET"],
+    "content_types": ["(none)"],
+    "pii_candidates": [],
+    "negative_control": true,
+    "notes": "Allow non-PII params like app_version, locale; avoid IDs/tokens."
+  }
+]

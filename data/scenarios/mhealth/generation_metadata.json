@@ -1,0 +1,376 @@
+{
+  "S01-50.jsonl": {
+    "generated_at": "2026-02-21T19:06:40.851808",
+    "scenario_id": "S01",
+    "requested_count": 50,
+    "valid_count": 50,
+    "invalid_count": 0,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 50,
+      "invalid_requests": 0,
+      "validation_rate": 1.0,
+      "total_errors": 0
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S02-50.jsonl": {
+    "generated_at": "2026-02-21T19:21:19.447863",
+    "scenario_id": "S02",
+    "requested_count": 50,
+    "valid_count": 50,
+    "invalid_count": 0,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 50,
+      "invalid_requests": 0,
+      "validation_rate": 1.0,
+      "total_errors": 0
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S03-32.jsonl": {
+    "generated_at": "2026-02-21T19:32:30.048305",
+    "scenario_id": "S03",
+    "requested_count": 50,
+    "valid_count": 32,
+    "invalid_count": 18,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 32,
+      "invalid_requests": 18,
+      "validation_rate": 0.64,
+      "total_errors": 18
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S04-50.jsonl": {
+    "generated_at": "2026-02-21T19:52:11.468871",
+    "scenario_id": "S04",
+    "requested_count": 50,
+    "valid_count": 50,
+    "invalid_count": 0,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 50,
+      "invalid_requests": 0,
+      "validation_rate": 1.0,
+      "total_errors": 0
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S05-50.jsonl": {
+    "generated_at": "2026-02-21T20:10:33.504047",
+    "scenario_id": "S05",
+    "requested_count": 50,
+    "valid_count": 50,
+    "invalid_count": 0,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 50,
+      "invalid_requests": 0,
+      "validation_rate": 1.0,
+      "total_errors": 0
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S07-43.jsonl": {
+    "generated_at": "2026-02-21T20:44:56.486841",
+    "scenario_id": "S07",
+    "requested_count": 50,
+    "valid_count": 43,
+    "invalid_count": 7,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 43,
+      "invalid_requests": 7,
+      "validation_rate": 0.86,
+      "total_errors": 9
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S08-50.jsonl": {
+    "generated_at": "2026-02-21T21:08:32.573795",
+    "scenario_id": "S08",
+    "requested_count": 50,
+    "valid_count": 50,
+    "invalid_count": 0,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 50,
+      "invalid_requests": 0,
+      "validation_rate": 1.0,
+      "total_errors": 0
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S09-50.jsonl": {
+    "generated_at": "2026-02-21T21:35:31.071795",
+    "scenario_id": "S09",
+    "requested_count": 50,
+    "valid_count": 50,
+    "invalid_count": 0,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 50,
+      "invalid_requests": 0,
+      "validation_rate": 1.0,
+      "total_errors": 0
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S10-49.jsonl": {
+    "generated_at": "2026-02-21T21:50:12.649500",
+    "scenario_id": "S10",
+    "requested_count": 50,
+    "valid_count": 49,
+    "invalid_count": 1,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 49,
+      "invalid_requests": 1,
+      "validation_rate": 0.98,
+      "total_errors": 2
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S11-50.jsonl": {
+    "generated_at": "2026-02-21T22:08:01.971134",
+    "scenario_id": "S11",
+    "requested_count": 50,
+    "valid_count": 50,
+    "invalid_count": 0,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 50,
+      "invalid_requests": 0,
+      "validation_rate": 1.0,
+      "total_errors": 0
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S12-50.jsonl": {
+    "generated_at": "2026-02-21T22:27:12.858247",
+    "scenario_id": "S12",
+    "requested_count": 50,
+    "valid_count": 50,
+    "invalid_count": 0,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 50,
+      "invalid_requests": 0,
+      "validation_rate": 1.0,
+      "total_errors": 0
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S14-33.jsonl": {
+    "generated_at": "2026-02-21T22:56:37.601248",
+    "scenario_id": "S14",
+    "requested_count": 50,
+    "valid_count": 33,
+    "invalid_count": 17,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 33,
+      "invalid_requests": 17,
+      "validation_rate": 0.66,
+      "total_errors": 26
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S16-48.jsonl": {
+    "generated_at": "2026-02-21T23:22:39.319854",
+    "scenario_id": "S16",
+    "requested_count": 50,
+    "valid_count": 48,
+    "invalid_count": 2,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 48,
+      "invalid_requests": 2,
+      "validation_rate": 0.96,
+      "total_errors": 2
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S17-46.jsonl": {
+    "generated_at": "2026-02-21T23:55:55.873384",
+    "scenario_id": "S17",
+    "requested_count": 50,
+    "valid_count": 46,
+    "invalid_count": 4,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 46,
+      "invalid_requests": 4,
+      "validation_rate": 0.92,
+      "total_errors": 5
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S18-30.jsonl": {
+    "generated_at": "2026-02-22T00:12:09.568037",
+    "scenario_id": "S18",
+    "requested_count": 50,
+    "valid_count": 30,
+    "invalid_count": 20,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 30,
+      "invalid_requests": 20,
+      "validation_rate": 0.6,
+      "total_errors": 20
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S19-50.jsonl": {
+    "generated_at": "2026-02-22T00:17:48.706071",
+    "scenario_id": "S19",
+    "requested_count": 50,
+    "valid_count": 50,
+    "invalid_count": 0,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 50,
+      "invalid_requests": 0,
+      "validation_rate": 1.0,
+      "total_errors": 0
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S20-50.jsonl": {
+    "generated_at": "2026-02-22T00:23:37.459678",
+    "scenario_id": "S20",
+    "requested_count": 50,
+    "valid_count": 50,
+    "invalid_count": 0,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 50,
+      "invalid_requests": 0,
+      "validation_rate": 1.0,
+      "total_errors": 0
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S21-35.jsonl": {
+    "generated_at": "2026-02-22T00:35:12.337828",
+    "scenario_id": "S21",
+    "requested_count": 50,
+    "valid_count": 35,
+    "invalid_count": 15,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 35,
+      "invalid_requests": 15,
+      "validation_rate": 0.7,
+      "total_errors": 15
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S22-45.jsonl": {
+    "generated_at": "2026-02-22T00:47:17.214920",
+    "scenario_id": "S22",
+    "requested_count": 50,
+    "valid_count": 45,
+    "invalid_count": 5,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 45,
+      "invalid_requests": 5,
+      "validation_rate": 0.9,
+      "total_errors": 6
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S23-50.jsonl": {
+    "generated_at": "2026-02-22T00:57:14.335833",
+    "scenario_id": "S23",
+    "requested_count": 50,
+    "valid_count": 50,
+    "invalid_count": 0,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 50,
+      "invalid_requests": 0,
+      "validation_rate": 1.0,
+      "total_errors": 0
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S24-47.jsonl": {
+    "generated_at": "2026-02-22T01:13:31.605553",
+    "scenario_id": "S24",
+    "requested_count": 50,
+    "valid_count": 47,
+    "invalid_count": 3,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 47,
+      "invalid_requests": 3,
+      "validation_rate": 0.94,
+      "total_errors": 3
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  },
+  "S25-50.jsonl": {
+    "generated_at": "2026-02-22T01:24:19.128859",
+    "scenario_id": "S25",
+    "requested_count": 50,
+    "valid_count": 50,
+    "invalid_count": 0,
+    "validation_stats": {
+      "total_requests": 50,
+      "valid_requests": 50,
+      "invalid_requests": 0,
+      "validation_rate": 1.0,
+      "total_errors": 0
+    },
+    "model": "unsloth/GLM-5-GGUF:Q4_K_M",
+    "temperature": 0.8,
+    "max_tokens": 1600000
+  }
+}

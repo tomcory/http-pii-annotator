@@ -1,0 +1,8 @@
+anthropic~=0.52.0
+brotli~=1.1.0
+chardet~=5.2.0
+ollama~=0.5.1
+openai~=1.84.0
+pydantic~=2.11.0
+python-dotenv~=1.0.1
+tqdm~=4.67.1

@@ -1,0 +1,78 @@
+[
+  {
+    "label": "Account numbers",
+    "value": "BR-CUST-77889900"
+  },
+  {
+    "label": "Bank account number",
+    "value": "778899001122"
+  },
+  {
+    "label": "Bank account number",
+    "value": "112233445566"
+  },
+  {
+    "label": "Zip code",
+    "value": "1010"
+  },
+  {
+    "label": "Transaction history",
+    "value": "TXN-2026-0217-8812"
+  },
+  {
+    "label": "Financial status",
+    "value": "income_bracket=3"
+  },
+  {
+    "label": "Financial status",
+    "value": "income_bracket=high"
+  },
+  {
+    "label": "Academic records",
+    "value": "publications=6; h_index=4; first_author=3"
+  },
+  {
+    "label": "Government ID",
+    "value": "123.456.789-00"
+  },
+  {
+    "label": "Emergency contact information",
+    "value": "Mette Nielsen"
+  },
+  {
+    "label": "Citizenship",
+    "value": "FR"
+  },
+  {
+    "label": "Bank account number",
+    "value": "1122334455"
+  },
+  {
+    "label": "Routing number",
+    "value": "011000015"
+  },
+  {
+    "label": "Bank account number",
+    "value": "334455667788"
+  },
+  {
+    "label": "Bank account number",
+    "value": "445566778899"
+  },
+  {
+    "label": "Routing number",
+    "value": "083000108"
+  },
+  {
+    "label": "Passport number",
+    "value": "PH54321098"
+  },
+  {
+    "label": "License key or serial number",
+    "value": "SECURE-2026-PROT-KEY"
+  },
+  {
+    "label": "Zip code",
+    "value": "TST"
+  }
+]

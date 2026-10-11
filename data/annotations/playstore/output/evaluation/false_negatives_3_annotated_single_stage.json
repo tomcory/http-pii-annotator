@@ -1,0 +1,3602 @@
+[
+  {
+    "label": "Name",
+    "value": "\u00cf\u00f9\u00a5\u00cf\u00df\u00c4\u00ce\u00d8\u00ba"
+  },
+  {
+    "label": "Name",
+    "value": "\u2021\u220f\u2122\u2021\u220f\u00b0\u2021\u220f\u00e4\u2021\u220f\u2264\u2021\u220f\u00a2 \u2021\u03c0\u00c9\u2021\u220f\u00e0\u2021\u220f\u00ee\u2021\u220f\u00b5"
+  },
+  {
+    "label": "Other info",
+    "value": "false"
+  },
+  {
+    "label": "Political or religious beliefs",
+    "value": "No Preference"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"battery\":87,\"network\":\"wifi\",\"screen\":\"1080x2340\",\"latency_ms\":45}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 (555) 987-6543"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"device_model\":\"SM-G991B\",\"os\":\"Android 13\",\"app_version\":\"4.2.1\",\"memory_mb\":6144,\"storage_available_gb\":32.5}"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"cpu_usage\":23,\"memory_usage\":45,\"fps\":60,\"network_latency\":120}"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"boot_time\":864000,\"app_uptime\":3600,\"crash_count\":0}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+81 90-1234-5678"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"load_time_ms\":230,\"api_calls\":5,\"cache_hits\":12}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+82 10-9876-5432"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"render_time\":16,\"memory_pressure\":\"normal\",\"thermal_state\":\"nominal\"}"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"disk_free_gb\":64,\"ram_available_mb\":2048,\"network_quality\":\"excellent\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+39 333 123 4567"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"install_referrer\":\"utm_source=google_play\",\"first_open_time\":1699800000000}"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"startup_time_ms\":450,\"ui_responsive\":true}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+46 70 123 45 67"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"battery_saver\":false,\"data_saver\":false,\"low_memory\":false}"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"gpu_renderer\":\"Mali-G78\",\"gpu_vendor\":\"ARM\",\"open_gl_es\":3.2}"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"rooted\":false,\"emulator\":false,\"debuggable\":false}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+41 79 123 45 67"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"java_version\":\"11\",\"heap_max\":256,\"heap_used\":128}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+86 138 1234 5678"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"cpu_cores\":8,\"cpu_freq_mhz\":2800,\"gpu_model\":\"Adreno 650\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+65 9123 4567"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"version_code\":4104,\"version_name\":\"4.1.4\",\"build_type\":\"release\"}"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"manufacturer\":\"realme\",\"brand\":\"realme\",\"device\":\"RMX3031\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+27 83 123 4567"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "{\"crashes_last_24h\":0,\"anrs_last_24h\":0,\"oom_last_24h\":0}"
+  },
+  {
+    "label": "Device or other IDs",
+    "value": "user_xyz789"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"type\":\"scroll\",\"depth\":0.75}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"product_view\",\"sku\":\"SKU_12345\",\"category\":\"electronics\",\"duration_ms\":4500}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"add_to_wishlist\",\"sku\":\"SKU_12345\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"share\",\"platform\":\"email\",\"sku\":\"SKU_12345\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"type\":\"deep_link_followed\",\"url\":\"shoplite://product/98765\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"type\":\"purchase_completed\",\"order_id\":\"ORD-2024-78234\",\"value\":89.99}"
+  },
+  {
+    "label": "App interactions",
+    "value": "review_submitted"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"carousel_swipe\",\"direction\":\"left\",\"index\":2}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"carousel_swipe\",\"direction\":\"right\",\"index\":3}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"cta_tap\",\"cta_id\":\"hero_banner_promo\",\"destination\":\"/promo/summer2024\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "signup_started"
+  },
+  {
+    "label": "App interactions",
+    "value": "signup_completed"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"name\":\"list_created\",\"list_type\":\"wishlist\",\"item_count\":0}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"name\":\"item_added\",\"list_id\":\"WL_12345\",\"item_sku\":\"SKU_99988\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"name\":\"list_shared\",\"list_id\":\"WL_12345\",\"shared_to\":\"email\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"help_article_viewed\",\"article_id\":\"FAQ_001\",\"timestamp\":1659666000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"type\":\"support_ticket_created\",\"ticket_id\":\"TKT-78234\",\"category\":\"returns\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"promo_code_applied\",\"code\":\"SAVE20\",\"discount\":15.99,\"timestamp\":1659672000000}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"promo_rejected\",\"code\":\"EXPIRED50\",\"reason\":\"code_expired\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"type\":\"social_share\",\"platform\":\"whatsapp\",\"content_type\":\"product\",\"content_id\":\"SKU_12345\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"type\":\"social_share\",\"platform\":\"facebook\",\"content_type\":\"wishlist\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"app_open\",\"source\":\"push_notification\",\"campaign\":\"weekend_deals\",\"timestamp\":1659678000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"notification_dismissed\",\"campaign\":\"weekend_deals\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"notification_action\",\"action\":\"open_deeplink\",\"campaign\":\"weekend_deals\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"profile_update\",\"field\":\"shipping_address\",\"timestamp\":1659684000000}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"preference_change\",\"preference\":\"email_opt_in\",\"value\":true}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"preference_change\",\"preference\":\"push_notifications\",\"value\":false}"
+  },
+  {
+    "label": "App interactions",
+    "value": "category_browse"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event_type\":\"experiment_exposure\",\"experiment\":\"new_checkout_flow\",\"variant\":\"treatment_b\",\"timestamp\":1659696000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event_type\":\"conversion\",\"experiment\":\"new_checkout_flow\",\"conversion_type\":\"purchase\"}"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Customer asked about sizing for running shoes, recommended size 10 based on their usual fit"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"Live Chat Started\",\"timestamp\":1659702000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"Live Chat Message Sent\",\"message_length\":45}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"Live Chat Ended\",\"duration_sec\":180,\"rating\":5}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"attribution\",\"network\":\"google_ads\",\"campaign\":\"brand_awareness_q1\",\"timestamp\":1659708000000}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"first_open\",\"attribution\":\"google_ads\",\"campaign\":\"brand_awareness_q1\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"type\":\"re_engagement\",\"campaign\":\"winback_email\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "qr_code_scanned"
+  },
+  {
+    "label": "Other actions",
+    "value": "product_added_to_cart"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"feature_discovery\",\"feature\":\"ar_view\",\"discovery_method\":\"onboarding\",\"timestamp\":1659714000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"feature_used\",\"feature\":\"ar_view\",\"product\":\"SKU_SHOES_456\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"feature_feedback\",\"feature\":\"ar_view\",\"rating\":4,\"comment\":\"Really cool but sometimes laggy\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"name\":\"subscription_started\",\"plan\":\"premium_monthly\",\"price\":9.99,\"timestamp\":1659720000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"name\":\"subscription_payment_success\",\"plan\":\"premium_monthly\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"name\":\"subscription_trial_started\",\"plan\":\"premium\",\"duration_days\":7}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"app_update\",\"previous_version\":\"4.5.0\",\"new_version\":\"5.0.0\",\"timestamp\":1659726000000}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"migration_completed\",\"migrated_data\":[\"cart\",\"wishlist\",\"preferences\"]}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"first_launch_after_update\",\"new_features_shown\":[\"ar_view\",\"voice_search\"]}"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "The app has improved a lot since the last update. Much faster and the new UI is very intuitive. Would love to see dark mode support!"
+  },
+  {
+    "label": "App interactions",
+    "value": "feedback_submitted"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"name\":\"wishlist_item_price_drop\",\"item_sku\":\"SKU_12345\",\"old_price\":99.99,\"new_price\":79.99,\"timestamp\":1659750000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"name\":\"wishlist_notification_tapped\",\"item_sku\":\"SKU_12345\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"name\":\"wishlist_notification_dismissed\",\"item_sku\":\"SKU_67890\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"voice_search_initiated\",\"timestamp\":1659756000000}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"voice_search_result\",\"query\":\"red running shoes size 10\",\"results_count\":23,\"success\":true}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"voice_search_error\",\"error_type\":\"no_speech_detected\",\"retry_count\":1}"
+  },
+  {
+    "label": "App interactions",
+    "value": "barcode_scanned"
+  },
+  {
+    "label": "App interactions",
+    "value": "barcode_product_viewed"
+  },
+  {
+    "label": "Other actions",
+    "value": "barcode_added_to_cart"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"accessibility_feature_used\",\"feature\":\"screen_reader\",\"duration_sec\":120,\"timestamp\":1659762000000}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"accessibility_feature_used\",\"feature\":\"high_contrast_mode\",\"duration_sec\":120}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"accessibility_preference_changed\",\"setting\":\"font_size\",\"value\":\"large\"}"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Looking for the best value for money wireless earbuds"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"product_comparison_started\",\"products\":[\"SKU_123\",\"SKU_456\",\"SKU_789\"],\"timestamp\":1659774000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"product_comparison_item_added\",\"product\":\"SKU_101\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"product_comparison_item_removed\",\"product\":\"SKU_123\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"product_comparison_completed\",\"winner\":\"SKU_789\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"loyalty_points_earned\",\"points\":150,\"reason\":\"purchase\",\"timestamp\":1659780000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"loyalty_points_redeemed\",\"points\":500,\"reward\":\"10_voucher\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"loyalty_tier_upgraded\",\"old_tier\":\"silver\",\"new_tier\":\"gold\"}"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "App crashed during payment processing, please fix this urgently"
+  },
+  {
+    "label": "App interactions",
+    "value": "error_occurred"
+  },
+  {
+    "label": "App interactions",
+    "value": "error_report_submitted"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"tutorial_step_viewed\",\"step\":1,\"timestamp\":1659792000000}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"tutorial_step_completed\",\"step\":1}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"tutorial_step_viewed\",\"step\":2}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"type\":\"tutorial_skipped\",\"step\":2,\"reason\":\"already_familiar\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"feature_flag_evaluated\",\"flag\":\"new_search_algorithm\",\"variant\":\"control\",\"timestamp\":1659810000000}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"search_performed\",\"variant\":\"control\",\"query\":\"wireless earbuds under 50\",\"results_count\":67}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"type\":\"search_result_clicked\",\"position\":3,\"product\":\"SKU_456\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"name\":\"feature_enabled\",\"feature\":\"one_click_checkout\",\"timestamp\":1659822000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"name\":\"one_click_purchase_initiated\",\"product\":\"SKU_789\",\"price\":49.99}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"name\":\"one_click_purchase_completed\",\"product\":\"SKU_789\",\"fulfillment\":\"same_day\"}"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Clicked on the summer sale banner, excited about the 50% off deals!"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"in_app_message_shown\",\"message_id\":\"IAM_SUMMER_SALE\",\"timestamp\":1659828000000}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"in_app_message_clicked\",\"message_id\":\"IAM_SUMMER_SALE\",\"action\":\"shop_now\"}"
+  },
+  {
+    "label": "Other actions",
+    "value": "{\"event\":\"in_app_message_dismissed\",\"message_id\":\"IAM_WELCOME\"}"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "App crashed when I tried to add the last item to cart, happened twice already"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"crash_occurred\",\"exception\":\"NullPointerException\",\"timestamp\":1659840000000,\"stack_trace\":\"at com.shoplite.CartActivity.addToCart(CartActivity.java:145)\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"crash_report_sent\",\"report_id\":\"CR_789\"}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"app_recovered\",\"method\":\"automatic_restart\"}"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Browsed electronics section, compared 3 headphones, added one to wishlist"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"app_backgrounded\",\"session_length_sec\":845,\"timestamp\":1659846000000}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"app_foregrounded\",\"time_in_background_sec\":120}"
+  },
+  {
+    "label": "App interactions",
+    "value": "{\"event\":\"session_ended\",\"total_time_sec\":965,\"pages_visited\":12}"
+  },
+  {
+    "label": "App interactions",
+    "value": "home_search"
+  },
+  {
+    "label": "App interactions",
+    "value": "dashboard"
+  },
+  {
+    "label": "App interactions",
+    "value": "view_menu"
+  },
+  {
+    "label": "App interactions",
+    "value": "get_directions"
+  },
+  {
+    "label": "App interactions",
+    "value": "call"
+  },
+  {
+    "label": "In-app search history",
+    "value": "nearest pharmacy"
+  },
+  {
+    "label": "Health info",
+    "value": "therapists specializing in anxiety"
+  },
+  {
+    "label": "In-app search history",
+    "value": "deep dish"
+  },
+  {
+    "label": "In-app search history",
+    "value": "near downtown"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 217 555 0142"
+  },
+  {
+    "label": "User payment info",
+    "value": "891"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 503 555 0198"
+  },
+  {
+    "label": "Phone number",
+    "value": "+46 70 123 45 67"
+  },
+  {
+    "label": "Phone number",
+    "value": "+33 1 42 68 53 00"
+  },
+  {
+    "label": "Phone number",
+    "value": "+34 612 345 678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 416 555 0123"
+  },
+  {
+    "label": "Phone number",
+    "value": "+49 30 12345678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 312 555 0187"
+  },
+  {
+    "label": "Email address",
+    "value": "priya.sharma.v%40example.in"
+  },
+  {
+    "label": "Phone number",
+    "value": "+91 98765 43210"
+  },
+  {
+    "label": "Phone number",
+    "value": "+353 87 123 4567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+31 20 123 4567"
+  },
+  {
+    "label": "Address",
+    "value": "ul. Marsza\u2248\u00c7kowska 100/15"
+  },
+  {
+    "label": "Phone number",
+    "value": "+971 50 123 4567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+39 06 1234 5678"
+  },
+  {
+    "label": "Name",
+    "value": "\u2013\u00ea\u2013\u00aa\u2013\u00b5\u2013\u222b\u2014\u00c5\u2013\u221e\u2013\u03a9\u2013\u00a5\u2014\u00c4 \u2013\u00f9\u2013\u220f\u2013\u222b\u2013\u00e6\u2013\u00aa\u2013\u221e\u2013\u00b5\u2013\u2264\u2013\u220f\u2014\u00e1 \u2013\u00fc\u2013\u00b5\u2014\u00c7\u2014\u00c4\u2013\u00e6\u2013\u2264"
+  },
+  {
+    "label": "Phone number",
+    "value": "+7 495 123 45 67"
+  },
+  {
+    "label": "Address",
+    "value": "\u2014\u00c9\u2013\u00aa. \u2013\u00a2\u2013\u2264\u2013\u00b5\u2014\u00c4\u2014\u00c5\u2013\u222b\u2013\u221e\u2014\u00e8, \u2013\u00a5. 15, \u2013\u222b\u2013\u2264. 42"
+  },
+  {
+    "label": "Name",
+    "value": "\u2013\u00ea\u2013\u00aa\u2013\u00b5\u2013\u222b\u2014\u00c5\u2013\u221e\u2013\u03a9\u2013\u00a5\u2014\u00c4 \u2013\u00f9 \u2013\u00fc\u2013\u00b5\u2014\u00c7\u2014\u00c4\u2013\u00e6\u2013\u2264"
+  },
+  {
+    "label": "Phone number",
+    "value": "+44 131 123 4567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+86 21 6789 1234"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 310 555 0147"
+  },
+  {
+    "label": "Name",
+    "value": "\u00cd\u03c0\u00c4\u00ce\u00d8\u00ba\u00cf\u00e0\u00f2"
+  },
+  {
+    "label": "Phone number",
+    "value": "+82 2 1234 5678"
+  },
+  {
+    "label": "Address",
+    "value": "\u00cf\u00d1\u00fa\u00cf\u00f6\u220f\u00cc\u00e4\u03c0\u00ce\u2265\u00d1\u00cf\u00e3\u00fa \u00cd\u221e\u00ef\u00ce\u00c7\u00ae\u00cd\u00b5\u00a8 \u00cc\u00d6\u00e5\u00cc\u00f3\u00a7\u00ce\u00fb\u00c4\u00ce\u00b0\u00fa 152"
+  },
+  {
+    "label": "Name",
+    "value": "\u00cd\u03c0\u00c4\u00ce\u00d8\u00ba\u00cf\u00e0\u00f2"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 303 555 0198"
+  },
+  {
+    "label": "Phone number",
+    "value": "+54 11 4567-8901"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 604 555 0134"
+  },
+  {
+    "label": "Name",
+    "value": "Pierre Andr\u221a\u00a9 Dupont"
+  },
+  {
+    "label": "Address",
+    "value": "15 Avenue des Champs-\u221a\u00e2lys\u221a\u00a9es"
+  },
+  {
+    "label": "Phone number",
+    "value": "+46 31 123 45 67"
+  },
+  {
+    "label": "Phone number",
+    "value": "+90 212 123 45 67"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 212 555 0178"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 617 555 0189"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 312 555 0156"
+  },
+  {
+    "label": "Phone number",
+    "value": "+44 131 555 0198"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 415 555 0167"
+  },
+  {
+    "label": "Phone number",
+    "value": "+84 28 1234 5678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 215 555 0134"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 404 555 0187"
+  },
+  {
+    "label": "Phone number",
+    "value": "+36 1 234 5678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+33 6 12 34 56 78"
+  },
+  {
+    "label": "Credit score",
+    "value": "680-720"
+  },
+  {
+    "label": "Other info",
+    "value": "married"
+  },
+  {
+    "label": "Other financial info",
+    "value": "0"
+  },
+  {
+    "label": "Other info",
+    "value": "single"
+  },
+  {
+    "label": "Other info",
+    "value": "male"
+  },
+  {
+    "label": "Other financial info",
+    "value": "385000"
+  },
+  {
+    "label": "Other info",
+    "value": "false"
+  },
+  {
+    "label": "Other info",
+    "value": "married"
+  },
+  {
+    "label": "Health info",
+    "value": "O+"
+  },
+  {
+    "label": "Health info",
+    "value": "persistent dry cough for three days"
+  },
+  {
+    "label": "Health info",
+    "value": "sore throat, mild fever"
+  },
+  {
+    "label": "Health info",
+    "value": "6"
+  },
+  {
+    "label": "Health info",
+    "value": "physical therapy twice weekly, celecoxib 200mg daily"
+  },
+  {
+    "label": "Health info",
+    "value": "68"
+  },
+  {
+    "label": "Health info",
+    "value": "8547"
+  },
+  {
+    "label": "Health info",
+    "value": "7.5"
+  },
+  {
+    "label": "Health info",
+    "value": "8"
+  },
+  {
+    "label": "Health info",
+    "value": "420"
+  },
+  {
+    "label": "Health info",
+    "value": "82"
+  },
+  {
+    "label": "Health info",
+    "value": "7"
+  },
+  {
+    "label": "Health info",
+    "value": "7"
+  },
+  {
+    "label": "User IDs",
+    "value": "prof-2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e"
+  },
+  {
+    "label": "Health info",
+    "value": "never smoker"
+  },
+  {
+    "label": "Health info",
+    "value": "PHQ-9"
+  },
+  {
+    "label": "Health info",
+    "value": "12"
+  },
+  {
+    "label": "User IDs",
+    "value": "clinical_social_worker_456"
+  },
+  {
+    "label": "Health info",
+    "value": "B+"
+  },
+  {
+    "label": "Health info",
+    "value": "morningFatigue"
+  },
+  {
+    "label": "Health info",
+    "value": "14"
+  },
+  {
+    "label": "Health info",
+    "value": "generalized anxiety disorder"
+  },
+  {
+    "label": "Health info",
+    "value": "O+"
+  },
+  {
+    "label": "Health info",
+    "value": "HbA1c: 7.4% (elevated), Fasting Glucose: 142 mg/dL (elevated), TSH: 2.4 mIU/L (normal), Vitamin D: 22 ng/mL (low)"
+  },
+  {
+    "label": "User IDs",
+    "value": "dr_smith_endocrinology"
+  },
+  {
+    "label": "Health info",
+    "value": "145"
+  },
+  {
+    "label": "Health info",
+    "value": "168"
+  },
+  {
+    "label": "Health info",
+    "value": "7.5"
+  },
+  {
+    "label": "Health info",
+    "value": "prescribe triamcinolone 0.1% cream twice daily, use gentle moisturizers, follow up in 2 weeks"
+  },
+  {
+    "label": "Health info",
+    "value": "low FODMAP diet, dicyclomine as needed"
+  },
+  {
+    "label": "Health info",
+    "value": "7.5"
+  },
+  {
+    "label": "Health info",
+    "value": "good"
+  },
+  {
+    "label": "User IDs",
+    "value": "NP_wellness_456"
+  },
+  {
+    "label": "Health info",
+    "value": "follow up for migraine management"
+  },
+  {
+    "label": "Health info",
+    "value": "Patient with chronic migraine returning for follow up. Currently on preventive therapy. Reports reduction in headache frequency from 4-5 per month to 1-2 per month. Headaches now shorter duration and less severe."
+  },
+  {
+    "label": "Health info",
+    "value": "erenumab 140mg monthly, rimegepant as needed for acute treatment"
+  },
+  {
+    "label": "Health info",
+    "value": "1-2 per month"
+  },
+  {
+    "label": "Health info",
+    "value": "Chronic migraine well controlled on current regimen"
+  },
+  {
+    "label": "Health info",
+    "value": "Continue current therapy. Follow up in 3 months. Return sooner if symptoms worsen."
+  },
+  {
+    "label": "Fitness info",
+    "value": "138"
+  },
+  {
+    "label": "Fitness info",
+    "value": "175"
+  },
+  {
+    "label": "Fitness info",
+    "value": "95"
+  },
+  {
+    "label": "Fitness info",
+    "value": "145"
+  },
+  {
+    "label": "Fitness info",
+    "value": "95"
+  },
+  {
+    "label": "Fitness info",
+    "value": "162"
+  },
+  {
+    "label": "Fitness info",
+    "value": "138"
+  },
+  {
+    "label": "Other info",
+    "value": "68"
+  },
+  {
+    "label": "Fitness info",
+    "value": "165"
+  },
+  {
+    "label": "Fitness info",
+    "value": "45"
+  },
+  {
+    "label": "Fitness info",
+    "value": "30"
+  },
+  {
+    "label": "Fitness info",
+    "value": "12"
+  },
+  {
+    "label": "Fitness info",
+    "value": "250"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-555-123-4567"
+  },
+  {
+    "label": "Other info",
+    "value": "2.1"
+  },
+  {
+    "label": "Other info",
+    "value": "0.8"
+  },
+  {
+    "label": "Other info",
+    "value": "12"
+  },
+  {
+    "label": "Other info",
+    "value": "8"
+  },
+  {
+    "label": "Fitness info",
+    "value": "53"
+  },
+  {
+    "label": "Fitness info",
+    "value": "3.5"
+  },
+  {
+    "label": "Fitness info",
+    "value": "90"
+  },
+  {
+    "label": "Fitness info",
+    "value": "120"
+  },
+  {
+    "label": "Other info",
+    "value": "78.2"
+  },
+  {
+    "label": "Other info",
+    "value": "19.5"
+  },
+  {
+    "label": "Other info",
+    "value": "35.8"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-555-987-6543"
+  },
+  {
+    "label": "Fitness info",
+    "value": "435"
+  },
+  {
+    "label": "Fitness info",
+    "value": "125"
+  },
+  {
+    "label": "Fitness info",
+    "value": "95"
+  },
+  {
+    "label": "Fitness info",
+    "value": "185"
+  },
+  {
+    "label": "Fitness info",
+    "value": "30"
+  },
+  {
+    "label": "Fitness info",
+    "value": "125"
+  },
+  {
+    "label": "Phone number",
+    "value": "+49 170 1234567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+49 89 9876543"
+  },
+  {
+    "label": "Phone number",
+    "value": "+81-90-1234-5678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+81-3-9876-5432"
+  },
+  {
+    "label": "SMS or MMS",
+    "value": "\u00ca\u00f2\u00e9\u00ca\u00f3\u2022\u201e\u00c5\u00c6\u2030\u00ba\u00f6\u00cb\u2260\u221e\u201e\u00c5\u00d810\u00ca\u00f4\u00c7\u201e\u00c5\u00e3\u201e\u00c7\u00e2\u2030\u00ba\u00f6\u00cb\u2260\u221e\u00c2\u00c6\u00a7B\u201e\u00c5\u00df\u00cb\u00b0\u00e5\u201e\u00c5\u00d1\u201e\u00c5\u00e6\u201e\u00c5\u00f4\u201e\u00c4\u00c7\u00cb\u2265\u00e1\u00ca\u00f1\u00f4\u201e\u00c7\u00ed\u00c2\u00f8\u00f2\u201e\u00c7\u00e5\u201e\u00c5\u00f6\u201e\u00c5\u00b4\u00ca\u00e5\u00c5\u201e\u00c5\u00a3\u201e\u00c5\u00b6\u201e\u00c5\u00e7\u201e\u00c5\u00b6\u201e\u00c5\u00e8\u201e\u00c5\u2020\u201e\u00c5\u00ef\u201e\u00c5\u00d1\u201e\u00c4\u00c7"
+  },
+  {
+    "label": "Phone number",
+    "value": "+33 1 23 45 67 89"
+  },
+  {
+    "label": "Phone number",
+    "value": "+33 6 12 34 56 78"
+  },
+  {
+    "label": "Phone number",
+    "value": "+34 612 345 678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+34 91 234 5678"
+  },
+  {
+    "label": "SMS or MMS",
+    "value": "\u00ac\u00b0Hola! Tu reserva para el restaurante El Mirador est\u221a\u00b0 confirmada. Mesa para 4 personas a las 21:00. \u00ac\u00b0Hasta pronto!"
+  },
+  {
+    "label": "Phone number",
+    "value": "+55 11 98765-4321"
+  },
+  {
+    "label": "Phone number",
+    "value": "+55 11 3456-7890"
+  },
+  {
+    "label": "Phone number",
+    "value": "+7 495 123-45-67"
+  },
+  {
+    "label": "Phone number",
+    "value": "+7 916 987-65-43"
+  },
+  {
+    "label": "Phone number",
+    "value": "+86 138 1234 5678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+86 21 8765 4321"
+  },
+  {
+    "label": "SMS or MMS",
+    "value": "\u00ca\u00c7\u00ae\u00c1\u00f6\u00d1\u00c2\u00f8\u00b4\u00c8\u00c4\u00ed\u00c2\u2211\u2264\u00c2\u00e0\u221e\u00cb\u00e6\u00e6\u00cb\u00e8\u00fa\u00c8\u220f\u00fc\u00c8\u00a9\u00f8\u00c1\u00b4\u00f4\u00d4\u00ba\u00e5\u00c2\u00e8\u00f1\u2030\u00aa\u2202\u00c1\u2020\u00c5\u00d4\u00ba\u00f66-8-9243\u201e\u00c4\u00c7\u00cb\u00d8\u2211\u00c2\u00fa\u00ae3\u00c2\u00a7\u00a9\u00c2\u00dc\u00d6\u00c2\u00e8\u00f1\u2030\u00aa\u2202\u201e\u00c4\u00c7"
+  },
+  {
+    "label": "Phone number",
+    "value": "+46 70 123 45 67"
+  },
+  {
+    "label": "Phone number",
+    "value": "+46 8 765 43 21"
+  },
+  {
+    "label": "Phone number",
+    "value": "+31 6 12345678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+31 20 9876543"
+  },
+  {
+    "label": "SMS or MMS",
+    "value": "Witaj! Twoja rezerwacja zosta\u2248\u00c7a potwierdzona. Termin: 20.01.2024 godz. 18:00. Do zobaczenia!"
+  },
+  {
+    "label": "Phone number",
+    "value": "+45 12 34 56 78"
+  },
+  {
+    "label": "Phone number",
+    "value": "+45 87 65 43 21"
+  },
+  {
+    "label": "SMS or MMS",
+    "value": "Tak for din tilmelding! Din f\u221a\u220frste kasse leveres mandag. Velkommen til vores madf\u221a\u00b6llesskab!"
+  },
+  {
+    "label": "Phone number",
+    "value": "+358 50 123 4567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+358 9 876 543"
+  },
+  {
+    "label": "SMS or MMS",
+    "value": "Danke f\u221a\u00bar Ihre Reservierung! Hotel Alpenblick, 3 N\u221a\u00a7chte ab 27.01. Anreise ab 15:00 Uhr."
+  },
+  {
+    "label": "Phone number",
+    "value": "+30 691 234 5678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+30 210 987 6543"
+  },
+  {
+    "label": "SMS or MMS",
+    "value": "\u0152\u00ef\u0153\u00d6\u0153\u00e1\u0152\u00b1\u0153\u00c5\u0152\u03c0\u0153\u00c9\u0153\u00d1\u0152\u00f8\u0153\u00e7\u0152\u00ba\u0152\u00b5 \u0152\u2265\u0152\u03c0\u0152\u00b1 \u0153\u00d1\u0152\u2211\u0152\u03a9 \u0152\u00b5\u0152\u2265\u0152\u2265\u0153\u00c5\u0152\u00b1\u0153\u00dc\u0152\u00c6 \u0153\u00c9\u0152\u00b1\u0153\u00c7! \u0152\u00fc \u0152\u00aa\u0152\u00f8\u0152\u2265\u0152\u00b1\u0153\u00c5\u0152\u03c0\u0152\u00b1\u0153\u00c9\u0152\u00ba\u0153\u00e5\u0153\u00c7 \u0153\u00c9\u0152\u00b1\u0153\u00c7 \u0152\u00b5\u0152\u00d8\u0152\u03a9\u0152\u00b1\u0152\u03c0 \u0153\u00c4\u0152\u00aa\u0152\u2260\u0152\u00f8\u0152\u03a9 \u0152\u00b5\u0152\u03a9\u0152\u00b5\u0153\u00c5\u0152\u2265\u0153\u00e5\u0153\u00c7. \u0152\u00f6\u0152\u00b1\u0152\u00aa\u0153\u00e9\u0153\u00c7 \u0152\u00c6\u0153\u00c5\u0152\u220f\u0152\u00b1\u0153\u00d1\u0152\u00b5!"
+  },
+  {
+    "label": "Phone number",
+    "value": "+48 512 345 678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+48 22 345 6789"
+  },
+  {
+    "label": "SMS or MMS",
+    "value": "Bonjour! Votre commande est pr\u221a\u2122te \u221a\u2020 \u221a\u2122tre r\u221a\u00a9cup\u221a\u00a9r\u221a\u00a9e. Num\u221a\u00a9ro: BE-2024-54321."
+  },
+  {
+    "label": "Phone number",
+    "value": "+353 86 123 4567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+353 1 234 5678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+36 30 123 4567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+36 1 987 6543"
+  },
+  {
+    "label": "Phone number",
+    "value": "+420 601 234 567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+420 2 345 678 901"
+  },
+  {
+    "label": "SMS or MMS",
+    "value": "V\u221a\u00b0\u2248\u00e6en\u221a\u03a9 z\u221a\u00b0kazn\u221a\u2260k, va\u2248\u00b0a rezerv\u221a\u00b0cia je potvrden\u221a\u00b0. Te\u2248\u00b0\u221a\u2260me sa na va\u2248\u00b0u n\u221a\u00b0v\u2248\u00b0tevu."
+  },
+  {
+    "label": "Phone number",
+    "value": "+386 31 123 456"
+  },
+  {
+    "label": "Phone number",
+    "value": "+386 1 234 56 78"
+  },
+  {
+    "label": "Phone number",
+    "value": "+352 621 123 456"
+  },
+  {
+    "label": "Phone number",
+    "value": "+352 27 123 456"
+  },
+  {
+    "label": "Phone number",
+    "value": "+371 2 123 4567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+371 67 123 456"
+  },
+  {
+    "label": "SMS or MMS",
+    "value": "A\u0192\u00e7i\u2248\u00b4 u\u2248\u00e6 j\u2248\u00b4s\u2248\u2265 u\u2248\u00e6sakym\u0192\u00d6! Pristatymas numatomas rytoj tarp 10-14 val."
+  },
+  {
+    "label": "Phone number",
+    "value": "+372 5123 4567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+372 6789 0123"
+  },
+  {
+    "label": "Phone number",
+    "value": "+354 812 3456"
+  },
+  {
+    "label": "Phone number",
+    "value": "+354 567 8900"
+  },
+  {
+    "label": "SMS or MMS",
+    "value": "Takk fyrir skr\u221a\u00b0ninguna! \u221a\u00fb\u221a\u222b getur n\u221a\u222b nota\u221a\u221e \u221a\u00e6j\u221a\u2265nustuna. Haf\u221a\u221eu samband ef \u221a\u00e6\u221a\u222b \u221a\u00e6arft a\u221a\u221esto\u221a\u221e."
+  },
+  {
+    "label": "Phone number",
+    "value": "+357 99 123456"
+  },
+  {
+    "label": "Phone number",
+    "value": "+357 22 345678"
+  },
+  {
+    "label": "SMS or MMS",
+    "value": "\u0152\u00ef\u0153\u00d6\u0153\u00e1\u0152\u00b1\u0153\u00c5\u0152\u03c0\u0153\u00c9\u0153\u00d1\u0152\u00f8\u0153\u00e7\u0152\u00ba\u0152\u00b5 \u0152\u2265\u0152\u03c0\u0152\u00b1 \u0153\u00d1\u0152\u2211\u0152\u03a9 \u0152\u00b5\u0152\u2265\u0152\u2265\u0153\u00c5\u0152\u00b1\u0153\u00dc\u0152\u00c6 \u0153\u00c9\u0152\u00b1\u0153\u00c7! \u0152\u00fc \u0152\u00aa\u0152\u00f8\u0152\u2265\u0152\u00b1\u0153\u00c5\u0152\u03c0\u0152\u00b1\u0153\u00c9\u0152\u00ba\u0153\u00e5\u0153\u00c7 \u0153\u00c9\u0152\u00b1\u0153\u00c7 \u0152\u00b5\u0152\u00d8\u0152\u03a9\u0152\u00b1\u0152\u03c0 \u0152\u2260\u0153\u00d1\u0152\u00f8\u0152\u03c0\u0152\u00ba\u0152\u00f8\u0153\u00c7. \u0152\u00f6\u0152\u00b1\u0152\u00aa\u0152\u00c6 \u0152\u00a5\u0152\u03c0\u0152\u00b1\u0153\u00c9\u0152\u222b\u0152\u2260\u0152\u00a5\u0152\u00b1\u0153\u00c9\u0152\u2211!"
+  },
+  {
+    "label": "Phone number",
+    "value": "+385 91 234 5678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+385 1 2345 6789"
+  },
+  {
+    "label": "SMS or MMS",
+    "value": "V\u221a\u00b0\u2248\u00e6en\u221a\u03a9 z\u221a\u00b0kazn\u221a\u2260k, va\u2248\u00b0a objedn\u221a\u00b0vka bola odoslan\u221a\u00b0. \u0192\u00e5\u221a\u2260slo z\u221a\u00b0sielky: SK-54321."
+  },
+  {
+    "label": "Phone number",
+    "value": "+359 888 123 456"
+  },
+  {
+    "label": "Phone number",
+    "value": "+359 2 987 6543"
+  },
+  {
+    "label": "Phone number",
+    "value": "+40 721 123 456"
+  },
+  {
+    "label": "Phone number",
+    "value": "+40 21 234 5678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+381 63 123 4567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+381 11 234 5678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+355 69 123 4567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+355 4 2233 4455"
+  },
+  {
+    "label": "Phone number",
+    "value": "+20 100 123 4567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+20 2 2345 6789"
+  },
+  {
+    "label": "SMS or MMS",
+    "value": "\u00ff\u00a5\u0178\u00c9\u00ff\u00b1\u00ff\u00df\u0178\u00e3 \u0178\u00d1\u00ff\u00df\u00ff\u00a5\u00ff\u2122\u00ff\u00b1\u00ff\u00df\u0178\u00c9\u0178\u00c9! \u00ff\u2211\u0178\u00d1\u00ff\u00ae\u0178\u00c9 \u0178\u00d6\u00ff\u00a7\u0178\u00c9\u00ff\u00d8. \u00ff\u00b1\u0178\u00c7\u0178\u00d6 \u00ff\u00df\u0178\u00d1\u00ff\u2211\u0178\u00d1\u00ff\u00ae: SA-54321."
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "Thanks for the update! I'll review the documents and get back to you by end of day."
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "The doctor appointment is confirmed for next Tuesday at 2:30pm. Don't forget to bring your insurance card."
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "The new button styles look great! Can we try a slightly darker shade of blue for the hover state?"
+  },
+  {
+    "label": "User IDs",
+    "value": "@designer_alice"
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "Mom called and asked if we're coming for Thanksgiving. Let me know what you think."
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "The kids are excited about the camping trip this weekend. Did you pack the tent and sleeping bags?"
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "The package should arrive by Friday. I'll send you the tracking number once I get it."
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "I just finished reading the last chapter. Wow, what a plot twist! I did not see that coming at all. Who wants to discuss it this weekend?"
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "Hi, my dog has been scratching a lot recently. Can I book an appointment for this week?"
+  },
+  {
+    "label": "User IDs",
+    "value": "pet_owner_5678"
+  },
+  {
+    "label": "User IDs",
+    "value": "vet_clinic_account"
+  },
+  {
+    "label": "User IDs",
+    "value": "carpool_group_weekly"
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "Just finished my first cable knit sweater! It took me three weeks but I'm so proud of how it turned out. Sharing photos in the group album."
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "The quarterly earnings report looks promising. I think we should discuss rebalancing our portfolio at the next meeting."
+  },
+  {
+    "label": "Other in-app messages",
+    "value": "Attention all gardeners! The community plant swap is happening this Saturday at the community center. Bring your extra seedlings and cuttings to trade with neighbors."
+  },
+  {
+    "label": "User IDs",
+    "value": "lobby_weekend_games"
+  },
+  {
+    "label": "Photos",
+    "value": "Sunset at Santa Monica beach with family"
+  },
+  {
+    "label": "Files and docs",
+    "value": "Work/Projects/Q1_Report"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-555-234-5678"
+  },
+  {
+    "label": "Precise location",
+    "value": "48.8584"
+  },
+  {
+    "label": "Precise location",
+    "value": "2.2945"
+  },
+  {
+    "label": "User IDs",
+    "value": "emma_w"
+  },
+  {
+    "label": "Phone number",
+    "value": "+34 612 345 678"
+  },
+  {
+    "label": "Photos",
+    "value": "screenshot_bank_statement_q1_2024.png"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 (555) 987-6543"
+  },
+  {
+    "label": "Precise location",
+    "value": "39.7817"
+  },
+  {
+    "label": "Precise location",
+    "value": "-89.6501"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-212-555-0199"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-555-123-4567"
+  },
+  {
+    "label": "Address",
+    "value": "Studio Memories, 123 Photo Lane, Portland, OR 97201"
+  },
+  {
+    "label": "Purchase history",
+    "value": "Family Premium"
+  },
+  {
+    "label": "Purchase history",
+    "value": "299.99"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-555-876-5432"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-937-555-0123"
+  },
+  {
+    "label": "Photos",
+    "value": "Baby's First Steps"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-404-555-0199"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-707-555-0155"
+  },
+  {
+    "label": "User IDs",
+    "value": "SKU-NIKE-AF-001"
+  },
+  {
+    "label": "User IDs",
+    "value": "INV-2024-456"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-503-555-0144"
+  },
+  {
+    "label": "User IDs",
+    "value": "LST-2024-78945"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-619-555-0133"
+  },
+  {
+    "label": "Name",
+    "value": "Rachel Green"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-619-555-0199"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-617-555-0122"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-512-555-0111"
+  },
+  {
+    "label": "Name",
+    "value": "Robert Martinez"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-512-555-0100"
+  },
+  {
+    "label": "Fitness info",
+    "value": "Bodybuilding"
+  },
+  {
+    "label": "Fitness info",
+    "value": "Muscle Gain"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-214-555-0188"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-646-555-0199"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-303-555-0166"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-303-555-0155"
+  },
+  {
+    "label": "Files and docs",
+    "value": "Tax Return"
+  },
+  {
+    "label": "User IDs",
+    "value": "usr_cloud_789"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-202-555-0144"
+  },
+  {
+    "label": "Precise location",
+    "value": "38.9072"
+  },
+  {
+    "label": "Precise location",
+    "value": "-77.0369"
+  },
+  {
+    "label": "Address",
+    "value": "747 Howard Street, San Francisco, CA 94103"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-415-555-0133"
+  },
+  {
+    "label": "Health info",
+    "value": "O+"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-555-123-4567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-312-555-0100"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-928-555-0166"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-555-987-6543"
+  },
+  {
+    "label": "Sexual orientation",
+    "value": "Long-term relationship"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-619-555-0177"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-773-555-0155"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-212-555-0144"
+  },
+  {
+    "label": "User IDs",
+    "value": "BCBS-123456789"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-212-555-0100"
+  },
+  {
+    "label": "Health info",
+    "value": "Moderate"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-530-555-0188"
+  },
+  {
+    "label": "Videos",
+    "value": "Home - Living Room"
+  },
+  {
+    "label": "Videos",
+    "value": "Case #2023-CV-00457"
+  },
+  {
+    "label": "Videos",
+    "value": "Plaintiff: Maria Gonzalez"
+  },
+  {
+    "label": "Videos",
+    "value": "Defendant: TechCorp Industries"
+  },
+  {
+    "label": "Videos",
+    "value": "Dr. Jennifer Martinez, PhD"
+  },
+  {
+    "label": "Videos",
+    "value": "Individual Therapy"
+  },
+  {
+    "label": "Videos",
+    "value": "Weekly CBT session - discussed anxiety management techniques"
+  },
+  {
+    "label": "Name",
+    "value": "Jennifer Martinez"
+  },
+  {
+    "label": "Videos",
+    "value": "Client presentation for Acme Corp - Q4 marketing strategy proposal, includes projected ROI and campaign timeline"
+  },
+  {
+    "label": "Videos",
+    "value": "Marketing Team - John Miller"
+  },
+  {
+    "label": "Videos",
+    "value": "Rebecca Thompson - Thompson Realty"
+  },
+  {
+    "label": "Videos",
+    "value": "Virtual home tour for MLS listing #IL2023456 - spacious colonial with updated kitchen"
+  },
+  {
+    "label": "Videos",
+    "value": "Starlight Dance Academy"
+  },
+  {
+    "label": "Videos",
+    "value": "Olivia Martinez"
+  },
+  {
+    "label": "Videos",
+    "value": "Contemporary"
+  },
+  {
+    "label": "Videos",
+    "value": "Ms. Kimberly"
+  },
+  {
+    "label": "Videos",
+    "value": "So proud of Olivia's solo performance at the spring recital!"
+  },
+  {
+    "label": "Name",
+    "value": "Kimberly"
+  },
+  {
+    "label": "Videos",
+    "value": "Officer Badge #4521 - Sergeant Michael Rodriguez"
+  },
+  {
+    "label": "Videos",
+    "value": "Night patrol shift - Downtown District - Vehicle unit 7-B"
+  },
+  {
+    "label": "Videos",
+    "value": "Dr. William Lee, MD"
+  },
+  {
+    "label": "Videos",
+    "value": "Memorial General Hospital"
+  },
+  {
+    "label": "Videos",
+    "value": "Laparoscopic Cholecystectomy"
+  },
+  {
+    "label": "Videos",
+    "value": "PAT-2023-8847"
+  },
+  {
+    "label": "Videos",
+    "value": "Surgery - General"
+  },
+  {
+    "label": "Videos",
+    "value": "CONSENT-2023-8847-MED"
+  },
+  {
+    "label": "Videos",
+    "value": "Serenity Yoga Studio"
+  },
+  {
+    "label": "Videos",
+    "value": "Emma Wilson - RYT 500"
+  },
+  {
+    "label": "Videos",
+    "value": "Vinyasa Flow - Intermediate"
+  },
+  {
+    "label": "Videos",
+    "value": "Full 90-minute vinyasa flow class filmed for online membership platform"
+  },
+  {
+    "label": "Videos",
+    "value": "Backyard - 789 Maple Drive"
+  },
+  {
+    "label": "Videos",
+    "value": "Homeowner: James Wilson"
+  },
+  {
+    "label": "Address",
+    "value": "789 Maple Drive"
+  },
+  {
+    "label": "Videos",
+    "value": "Tech Talk Weekly"
+  },
+  {
+    "label": "Videos",
+    "value": "Interview with Sarah Chen, CEO of InnovateLabs"
+  },
+  {
+    "label": "Videos",
+    "value": "Sarah Chen"
+  },
+  {
+    "label": "Videos",
+    "value": "Marcus Johnson"
+  },
+  {
+    "label": "Videos",
+    "value": "Advanced Marketing Strategies for 2024"
+  },
+  {
+    "label": "Videos",
+    "value": "Dr. Emily Roberts - Marketing Professor, Stanford University"
+  },
+  {
+    "label": "Videos",
+    "value": "Business Growth Institute"
+  },
+  {
+    "label": "Videos",
+    "value": "Grandma's Kitchen"
+  },
+  {
+    "label": "Videos",
+    "value": "Sunday Sauce with Nonna Maria"
+  },
+  {
+    "label": "Videos",
+    "value": "Maria Rosetti"
+  },
+  {
+    "label": "Videos",
+    "value": "Nonna Maria - Grandmother from Naples, Italy"
+  },
+  {
+    "label": "Videos",
+    "value": "Rosetti Family Home Kitchen - Brooklyn, NY"
+  },
+  {
+    "label": "Videos",
+    "value": "Traditional Italian Sunday Gravy with meatballs, sausage, and braciole"
+  },
+  {
+    "label": "Videos",
+    "value": "INC-2023-11-10-0042"
+  },
+  {
+    "label": "Videos",
+    "value": "Officer Daniel Martinez #4521"
+  },
+  {
+    "label": "Videos",
+    "value": "Officer Sarah Thompson #3847"
+  },
+  {
+    "label": "Videos",
+    "value": "Intersection of Main St and 5th Avenue, Downtown"
+  },
+  {
+    "label": "Videos",
+    "value": "Traffic Stop - Suspicious Vehicle"
+  },
+  {
+    "label": "Videos",
+    "value": "Routine traffic stop escalated to vehicle search. Suspect detained and released with warning."
+  },
+  {
+    "label": "Videos",
+    "value": "Buddy"
+  },
+  {
+    "label": "Videos",
+    "value": "Owner: Karen Williams"
+  },
+  {
+    "label": "Videos",
+    "value": "Trainer: Steve Peterson - K9 Academy"
+  },
+  {
+    "label": "Videos",
+    "value": "Leash Training and Recall Commands"
+  },
+  {
+    "label": "Videos",
+    "value": "K9 Academy Training Center"
+  },
+  {
+    "label": "Videos",
+    "value": "Buddy showing improvement with 'stay' command. Needs more work on recall in distracting environments."
+  },
+  {
+    "label": "Videos",
+    "value": "Student: Emily Chen (Age 12)"
+  },
+  {
+    "label": "Videos",
+    "value": "Instructor: Dr. Robert Hayes - Piano, MM, Juilliard"
+  },
+  {
+    "label": "Videos",
+    "value": "Chopin - Waltz in A minor, Op. Posth."
+  },
+  {
+    "label": "Videos",
+    "value": "Harmony Music Academy - Studio 3"
+  },
+  {
+    "label": "Videos",
+    "value": "Emily's finger technique has improved significantly. Working on dynamics and rubato for the Chopin piece. Ready for spring recital."
+  },
+  {
+    "label": "Name",
+    "value": "Robert Hayes"
+  },
+  {
+    "label": "Videos",
+    "value": "Patient: John Mitchell - Post ACL Reconstruction Surgery - Week 6 Recovery"
+  },
+  {
+    "label": "Videos",
+    "value": "Physical Therapist: Dr. Amanda Lee, DPT - Sports Medicine Rehabilitation Center"
+  },
+  {
+    "label": "Videos",
+    "value": "Quad sets, hamstring curls, single-leg balance, step-ups, mini squats"
+  },
+  {
+    "label": "Videos",
+    "value": "Merger Agreement - Acme Corp and TechStart Inc."
+  },
+  {
+    "label": "Videos",
+    "value": "Wilson & Associates Law Firm - Conference Room A"
+  },
+  {
+    "label": "Videos",
+    "value": "James Wilson - CEO, Acme Corp"
+  },
+  {
+    "label": "Videos",
+    "value": "Linda Chen - CEO, TechStart Inc"
+  },
+  {
+    "label": "Videos",
+    "value": "Michael Brooks - Legal Counsel"
+  },
+  {
+    "label": "Videos",
+    "value": "Sarah Thompson - Paralegal"
+  },
+  {
+    "label": "Videos",
+    "value": "David Park - Notary Public"
+  },
+  {
+    "label": "Videos",
+    "value": "CONTRACT-2023-ACM-001"
+  },
+  {
+    "label": "Videos",
+    "value": "Construction Site: New Office Tower - 500 Market Street, Downtown"
+  },
+  {
+    "label": "Videos",
+    "value": "Client: Apex Development Corporation - Project Manager: Thomas Wright"
+  },
+  {
+    "label": "Videos",
+    "value": "General Contractor: BuildRight Construction - Site Supervisor: Carlos Mendez"
+  },
+  {
+    "label": "Videos",
+    "value": "Week 24 progress: Exterior framing 80% complete, HVAC rough-in in progress, electrical on schedule"
+  },
+  {
+    "label": "Videos",
+    "value": "CHEM 301 - Organic Chemistry II"
+  },
+  {
+    "label": "Videos",
+    "value": "Dr. Elizabeth Warren, PhD"
+  },
+  {
+    "label": "Videos",
+    "value": "State University - Department of Chemistry"
+  },
+  {
+    "label": "Videos",
+    "value": "Nucleophilic Substitution Reactions - SN1 vs SN2 Mechanisms"
+  },
+  {
+    "label": "Videos",
+    "value": "Recording for exam 3 review. Covers chapters 7-9. Focus on stereochemistry implications."
+  },
+  {
+    "label": "Name",
+    "value": "Elizabeth Warren"
+  },
+  {
+    "label": "Videos",
+    "value": "Youth Soccer"
+  },
+  {
+    "label": "Videos",
+    "value": "U12 Championship"
+  },
+  {
+    "label": "Videos",
+    "value": "Eagles vs Tigers"
+  },
+  {
+    "label": "Videos",
+    "value": "City Sports Complex - Field 3"
+  },
+  {
+    "label": "Videos",
+    "value": "Eagles 3 - Tigers 2"
+  },
+  {
+    "label": "Videos",
+    "value": "Coach: Michael Stevens"
+  },
+  {
+    "label": "Videos",
+    "value": "Coach: Robert Kim"
+  },
+  {
+    "label": "Videos",
+    "value": "Championship winning goal by #10 Jake Thompson in final minute, trophy presentation, team celebration"
+  },
+  {
+    "label": "Videos",
+    "value": "The Johnson Family"
+  },
+  {
+    "label": "Videos",
+    "value": "Tom Johnson"
+  },
+  {
+    "label": "Videos",
+    "value": "Sarah Johnson"
+  },
+  {
+    "label": "Videos",
+    "value": "Emma Johnson (age 16)"
+  },
+  {
+    "label": "Videos",
+    "value": "Jack Johnson (age 12)"
+  },
+  {
+    "label": "Videos",
+    "value": "Grandma Betty"
+  },
+  {
+    "label": "Videos",
+    "value": "Johnson Family Home - 456 Maple Avenue, Springfield"
+  },
+  {
+    "label": "Videos",
+    "value": "Wishing you joy and happiness this holiday season! Love, The Johnsons"
+  },
+  {
+    "label": "Address",
+    "value": "456 Maple Avenue, Springfield"
+  },
+  {
+    "label": "Name",
+    "value": "Betty"
+  },
+  {
+    "label": "Videos",
+    "value": "Patient ID: PAT-2023-9982 - Follow-up Consultation"
+  },
+  {
+    "label": "Videos",
+    "value": "Provider: Dr. Susan Mitchell, MD - Internal Medicine"
+  },
+  {
+    "label": "Videos",
+    "value": "Post-surgery follow-up: incision healing well, stitches removed, prescribed physical therapy regimen"
+  },
+  {
+    "label": "Name",
+    "value": "Susan Mitchell"
+  },
+  {
+    "label": "Videos",
+    "value": "Oakwood Elementary School"
+  },
+  {
+    "label": "Videos",
+    "value": "The Wizard of Oz"
+  },
+  {
+    "label": "Videos",
+    "value": "Mrs. Patricia Nelson - Drama Club Advisor"
+  },
+  {
+    "label": "Videos",
+    "value": "Emma Wilson"
+  },
+  {
+    "label": "Videos",
+    "value": "Lucas Martinez"
+  },
+  {
+    "label": "Videos",
+    "value": "Noah Thompson"
+  },
+  {
+    "label": "Videos",
+    "value": "Sophia Kim"
+  },
+  {
+    "label": "Videos",
+    "value": "Mr. James Anderson (Teacher)"
+  },
+  {
+    "label": "Videos",
+    "value": "Oakwood Elementary Auditorium"
+  },
+  {
+    "label": "Videos",
+    "value": "Full performance including intermission. Captured from center aisle, row 5."
+  },
+  {
+    "label": "Name",
+    "value": "Patricia Nelson"
+  },
+  {
+    "label": "Name",
+    "value": "James Anderson"
+  },
+  {
+    "label": "Videos",
+    "value": "OSHA Safety Compliance Training"
+  },
+  {
+    "label": "Videos",
+    "value": "Module 7: Hazard Communication and Chemical Safety"
+  },
+  {
+    "label": "Videos",
+    "value": "Safety Officer: Richard Thompson - CSP, CHMM"
+  },
+  {
+    "label": "Videos",
+    "value": "Industrial Manufacturing Corp."
+  },
+  {
+    "label": "Videos",
+    "value": "Maintenance Department"
+  },
+  {
+    "label": "Videos",
+    "value": "Warehouse Team"
+  },
+  {
+    "label": "Videos",
+    "value": "Quality Control"
+  },
+  {
+    "label": "Videos",
+    "value": "Certificate valid for 2 years upon completion"
+  },
+  {
+    "label": "Videos",
+    "value": "Mandatory annual training per OSHA 29 CFR 1910.1200. Attendance logged in HR system."
+  },
+  {
+    "label": "Videos",
+    "value": "Sunday Mass - November 12, 2023 - 10:00 AM Service"
+  },
+  {
+    "label": "Videos",
+    "value": "St. Mary's Catholic Church - Father Michael O'Brien"
+  },
+  {
+    "label": "Videos",
+    "value": "First Reading: Isaiah 65:17-21, Psalm: Psalm 30, Second Reading: Revelation 21:1-5, Gospel: John 14:1-6"
+  },
+  {
+    "label": "Videos",
+    "value": "Prayers for the Smith family on the passing of Margaret Smith"
+  },
+  {
+    "label": "Videos",
+    "value": "INS-2023-78542"
+  },
+  {
+    "label": "Videos",
+    "value": "Policy Holder: Jennifer Morrison"
+  },
+  {
+    "label": "Videos",
+    "value": "POL-AUTO-2023-456789"
+  },
+  {
+    "label": "Videos",
+    "value": "SafeGuard Insurance Co."
+  },
+  {
+    "label": "Videos",
+    "value": "Claims Adjuster: Mark Peterson"
+  },
+  {
+    "label": "Videos",
+    "value": "Vehicle Collision - Rear End Impact"
+  },
+  {
+    "label": "Videos",
+    "value": "Intersection of Oak Street and Main Avenue, Riverside City"
+  },
+  {
+    "label": "Videos",
+    "value": "Rear bumper damage, trunk misalignment, tail light replacement needed. Estimated repair: $3,200"
+  },
+  {
+    "label": "Videos",
+    "value": "Pianist: Catherine Liu - Age 16"
+  },
+  {
+    "label": "Videos",
+    "value": "Piano Teacher: Dr. Vladimir Petrov"
+  },
+  {
+    "label": "Videos",
+    "value": "Chopin - Nocturne in E-flat Major, Op. 9 No. 2"
+  },
+  {
+    "label": "Videos",
+    "value": "State Piano Competition - Junior Division"
+  },
+  {
+    "label": "Videos",
+    "value": "Grand Concert Hall - State University Music Department"
+  },
+  {
+    "label": "Videos",
+    "value": "First Place"
+  },
+  {
+    "label": "Videos",
+    "value": "Exceptional interpretation and dynamic control. Promising young talent with great potential for conservatory training."
+  },
+  {
+    "label": "Name",
+    "value": "Vladimir Petrov"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Voice journal entry - January"
+  },
+  {
+    "label": "Files and docs",
+    "value": "journal_jan_2024.mp3"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-555-234-5678"
+  },
+  {
+    "label": "Files and docs",
+    "value": "interview_candidate_recording.ogg"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Discussed technical background and system design experience. Candidate mentioned previous work at TechCorp."
+  },
+  {
+    "label": "Files and docs",
+    "value": "podcast_episode_draft.mp3"
+  },
+  {
+    "label": "Files and docs",
+    "value": "podcast_outtake_01.mp3"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Welcome back to episode 12 of my podcast where I discuss my journey with anxiety and how therapy has helped me cope with daily stress."
+  },
+  {
+    "label": "Name",
+    "value": "SoundMaster2024"
+  },
+  {
+    "label": "Phone number",
+    "value": "+44 7911 123456"
+  },
+  {
+    "label": "Files and docs",
+    "value": "explosion_effect.wav"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Sound effect recording for game development project. Contains explosion sound created using household items."
+  },
+  {
+    "label": "Health info",
+    "value": "medication adjustment"
+  },
+  {
+    "label": "Files and docs",
+    "value": "workout_motivation_mix.mp3"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Hey everyone! This is your daily workout motivation. Remember, your body can stand almost anything. It's your mind that you have to convince. Let's crush this workout together! For my personal training clients - Sarah, Mike, and Tom - this one's for you guys!"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1 (555) 987-6543"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Baby's first words"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-212-555-0199"
+  },
+  {
+    "label": "Files and docs",
+    "value": "deposition_witness_jones_20240129.mp3"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Deposition recording for civil litigation case. Witness testimony regarding workplace incident."
+  },
+  {
+    "label": "Phone number",
+    "value": "+34 612 345 678"
+  },
+  {
+    "label": "Files and docs",
+    "value": "leccion_espanol_01.mp3"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Hola, bienvenidos a la leccion numero uno de espanol para principiantes. Hoy aprenderemos los saludos basicos. Hola significa hello, buenos dias significa good morning."
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-310-555-0147"
+  },
+  {
+    "label": "Files and docs",
+    "value": "beat_sample_v2.mp3"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Morning anxiety - February 1st"
+  },
+  {
+    "label": "Health info",
+    "value": "lexapro dosage"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Murder at Midnight - Episode 47 Teaser"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "In this episode, we dive deep into the mysterious disappearance of a small town librarian. What really happened on that cold November night?"
+  },
+  {
+    "label": "Files and docs",
+    "value": "la_traffic_report.wav"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Heavy traffic on the 405 this morning. Expect delays between Santa Monica and LAX. Alternate route via Lincoln Boulevard recommended."
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-415-555-0132"
+  },
+  {
+    "label": "Health info",
+    "value": "EKG shows ST elevation"
+  },
+  {
+    "label": "Files and docs",
+    "value": "local_band_live_show.mp3"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Recording from last night's show at The Continental Club. Local band 'The Midnight Ramblers' playing their hit song 'Austin Nights'. Great energy from the crowd!"
+  },
+  {
+    "label": "Name",
+    "value": "Sarah"
+  },
+  {
+    "label": "Name",
+    "value": "Mike"
+  },
+  {
+    "label": "User IDs",
+    "value": "user_education_001"
+  },
+  {
+    "label": "Files and docs",
+    "value": "lecture_civil_war_part1.mp3"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "First lecture of the semester covering the economic, social, and political factors leading to the American Civil War. Topics include slavery, states' rights, and the election of 1860."
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-323-555-0198"
+  },
+  {
+    "label": "Files and docs",
+    "value": "standup_set_5min.mp3"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "So I was at the grocery store yesterday, right? And this lady asks me if I know where the organic produce is. I said, 'Lady, I don't even know where my car keys are.' My wife Karen always says I'd lose my head if it wasn't attached. She's probably right."
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-619-555-0145"
+  },
+  {
+    "label": "Files and docs",
+    "value": "workout_instructions_hiiit.mp3"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Alright everyone, let's get started with this high-intensity interval training session. We're going to do 30 seconds of burpees, followed by 30 seconds of rest. Then mountain climbers for 30 seconds. Let's go! Push yourself to the limit!"
+  },
+  {
+    "label": "Fitness info",
+    "value": "high-intensity interval training"
+  },
+  {
+    "label": "Fitness info",
+    "value": "30 seconds of burpees"
+  },
+  {
+    "label": "Fitness info",
+    "value": "mountain climbers for 30 seconds"
+  },
+  {
+    "label": "Name",
+    "value": "Jennifer Lawrence"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-415-555-0187"
+  },
+  {
+    "label": "Files and docs",
+    "value": "interview_notes_feb3.ogg"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-800-555-0199"
+  },
+  {
+    "label": "Phone number",
+    "value": "+33 1 23 45 67 89"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-555-123-4567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-650-555-0178"
+  },
+  {
+    "label": "Name",
+    "value": "Professor Johnson"
+  },
+  {
+    "label": "Name",
+    "value": "Alex"
+  },
+  {
+    "label": "Name",
+    "value": "Jordan"
+  },
+  {
+    "label": "Phone number",
+    "value": "+49 30 12345678"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Guten Tag und herzlich willkommen zur deutschen Aussprache-\u221a\u00fabung. Heute \u221a\u00baben wir die deutschen Umlaute: \u221a\u00a7, \u221a\u2202, \u221a\u00ba. Bitte sprechen Sie nach: K\u221a\u00a7se, \u221a\u00f1l, \u221a\u00faber. Sehr gut! Lassen Sie uns nun einige schwierige Konsonantenverbindungen \u221a\u00baben: sch, ch, ck."
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "High-quality recording of nighttime rain ambience. Captured during a gentle spring rainstorm in the Pacific Northwest. Features subtle thunder in the distance and the peaceful sound of raindrops on various surfaces. Perfect for relaxation, meditation, or as background ambience for media projects."
+  },
+  {
+    "label": "Other financial info",
+    "value": "29.99"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-323-555-0199"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-310-555-0177"
+  },
+  {
+    "label": "Files and docs",
+    "value": "luna_rose_debut_single.wav"
+  },
+  {
+    "label": "Voice or sound recordings",
+    "value": "Walking through the city lights, chasing all my dreams tonight. The stars above are shining bright, guiding me through the midnight hour. I won't give up, I won't back down, I'll find my way, I'll stand my ground..."
+  },
+  {
+    "label": "Music files",
+    "value": "Dads 60th Birthday Party Mix"
+  },
+  {
+    "label": "Other audio files",
+    "value": "Wedding Vows Recording.wav"
+  },
+  {
+    "label": "Other audio files",
+    "value": "D:\\Music\\Wedding Vows Recording.wav"
+  },
+  {
+    "label": "Music files",
+    "value": "My Brothers Band"
+  },
+  {
+    "label": "Other audio files",
+    "value": "Voice Memo - Interview with Grandma.flac"
+  },
+  {
+    "label": "Other audio files",
+    "value": "/private/var/containers/Bundle/Application/XYZ789/Documents/Voice Memo - Interview with Grandma.flac"
+  },
+  {
+    "label": "Other audio files",
+    "value": "Church Choir Practice Recording.m4a"
+  },
+  {
+    "label": "Other audio files",
+    "value": "/storage/sdcard1/Music/Church Choir Practice Recording.m4a"
+  },
+  {
+    "label": "Music files",
+    "value": "Aunt Mary Singing at Thanksgiving.mp3"
+  },
+  {
+    "label": "Music files",
+    "value": "/storage/sdcard1/Music/Aunt Mary Singing at Thanksgiving.mp3"
+  },
+  {
+    "label": "Music files",
+    "value": "My Daughters Dance Recital 2023"
+  },
+  {
+    "label": "Music files",
+    "value": "Canci\u221a\u2265n de Cumplea\u221a\u00b1os de Mam\u221a\u00b0.mp3"
+  },
+  {
+    "label": "Music files",
+    "value": "/sdcard/M\u221a\u222bsica/Canci\u221a\u2265n de Cumplea\u221a\u00b1os de Mam\u221a\u00b0.mp3"
+  },
+  {
+    "label": "Music files",
+    "value": "Grabaci\u221a\u2265n de la Boda de Mi Hermana.mp3"
+  },
+  {
+    "label": "Music files",
+    "value": "/sdcard/M\u221a\u222bsica/Grabaci\u221a\u2265n de la Boda de Mi Hermana.mp3"
+  },
+  {
+    "label": "Music files",
+    "value": "My Class Reunion Playlist 1995"
+  },
+  {
+    "label": "Other audio files",
+    "value": "My Sisters Graduation Ceremony Recording.m4a"
+  },
+  {
+    "label": "Other audio files",
+    "value": "/private/var/mobile/Containers/Data/Application/GRAD001/Documents/My Sisters Graduation Ceremony Recording.m4a"
+  },
+  {
+    "label": "Other audio files",
+    "value": "Recorded - Grandpa Telling Stories.m4a"
+  },
+  {
+    "label": "Other audio files",
+    "value": "/storage/emulated/0/Recordings/Recorded - Grandpa Telling Stories.m4a"
+  },
+  {
+    "label": "Music files",
+    "value": "My Original Song - For Mom"
+  },
+  {
+    "label": "Other audio files",
+    "value": "My Therapist Session Recording.m4a"
+  },
+  {
+    "label": "Other audio files",
+    "value": "/private/var/mobile/Containers/Data/Application/ENC001/Library/Caches/encrypted_a1b2c3.m4a.enc"
+  },
+  {
+    "label": "Files and docs",
+    "value": "Emily_Chen_Passport_Scan.jpg"
+  },
+  {
+    "label": "Files and docs",
+    "value": "/secure/emily_chen/identity/Emily_Chen_Passport_Scan.jpg"
+  },
+  {
+    "label": "Files and docs",
+    "value": "Emily_Chen_Driver_License.jpg"
+  },
+  {
+    "label": "Files and docs",
+    "value": "/secure/emily_chen/identity/Emily_Chen_Driver_License.jpg"
+  },
+  {
+    "label": "Calendar events",
+    "value": "Birthday Party for Emma"
+  },
+  {
+    "label": "Calendar events",
+    "value": "Please bring a dish to share. No nuts due to allergies. Parking available on Oak Street."
+  },
+  {
+    "label": "Approximate location",
+    "value": "Riverside Park Pavilion"
+  },
+  {
+    "label": "Approximate location",
+    "value": "TechCorp HQ, Building C, Room 201"
+  },
+  {
+    "label": "Approximate location",
+    "value": "1234 Oak Valley Road, Napa Valley"
+  },
+  {
+    "label": "Approximate location",
+    "value": "Bright Smile Dental Clinic, 45 High Street, London"
+  },
+  {
+    "label": "Calendar events",
+    "value": "Confirmation: ABC12345. Seat 14A window. Special meal request: vegetarian. Hotel: Tokyo Grand Hotel, Shinjuku. Contact hotel at +81 3 1234 5678 for pickup confirmation."
+  },
+  {
+    "label": "Calendar events",
+    "value": "50,000 mile service. Oil change, tire rotation, brake inspection."
+  },
+  {
+    "label": "Calendar events",
+    "value": "Estimated cost: $350. Ask about the noise from the left front wheel. Loaner car may be available if service takes longer than expected. Contact: service@autocareplus.example or call 555-123-4567."
+  },
+  {
+    "label": "Approximate location",
+    "value": "AutoCare Plus, 789 Industrial Blvd, San Jose"
+  },
+  {
+    "label": "Approximate location",
+    "value": "Restaurante La Terraza, Plaza Mayor 12, Madrid"
+  },
+  {
+    "label": "Approximate location",
+    "value": "456 Maple Avenue, Springfield, IL"
+  },
+  {
+    "label": "Calendar events",
+    "value": "Budget: $15,000-25,000 for venue + catering. Guest count: 150. Preferred date: September 2024. Ask about: indoor backup option, parking capacity, vendor restrictions."
+  },
+  {
+    "label": "Calendar events",
+    "value": "Emergency plumbing repair - kitchen sink leak and bathroom faucet replacement."
+  },
+  {
+    "label": "Calendar events",
+    "value": "Water shut-off valve location: basement. Landlord approved repair. Estimated cost: $200-300. Access code: 4B-1234."
+  },
+  {
+    "label": "Approximate location",
+    "value": "123 Oak Street, Apt 4B"
+  },
+  {
+    "label": "Calendar events",
+    "value": "Tech Summit 2024"
+  },
+  {
+    "label": "Approximate location",
+    "value": "Zahnarztpraxis Dr. Mueller, Hauptstrasse 42, Berlin"
+  },
+  {
+    "label": "Calendar events",
+    "value": "Consulta Medica"
+  },
+  {
+    "label": "Calendar events",
+    "value": "Consulta de rotina com cardiologista. Exames de sangue anteriores ja enviados."
+  },
+  {
+    "label": "Calendar events",
+    "value": "Trazer cartao do conv\u221a\u2122nio e documento de identidade. Chegar 15 minutos antes. Estacionamento no subsolo. Resultados disponiveis em 5 dias uteis."
+  },
+  {
+    "label": "Approximate location",
+    "value": "Hospital Sao Lucas, Sala 205, Av. Paulista 1000, Sao Paulo"
+  },
+  {
+    "label": "Approximate location",
+    "value": "Community Center, 100 Celebration Drive, Austin, TX"
+  },
+  {
+    "label": "Calendar events",
+    "value": "Hair Salon Appointment"
+  },
+  {
+    "label": "Approximate location",
+    "value": "First National Bank, 400 Main Street, Suite 300, Closing Room A"
+  },
+  {
+    "label": "Calendar events",
+    "value": "Previous inspection: April 2023. Check brake pads and tire condition. Oil change due at this visit. Estimated cost: $75 inspection + $45 oil change. Wait in lobby - free coffee and WiFi."
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-555-0123-4567"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-555-0198-7654"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"display_name\":\"Marcus Chen\",\"phone_numbers\":[\"+1-555-0123-4567\",\"+1-555-0198-7654\"],\"email\":\"marcus.chen@example.org\",\"contact_frequency\":\"daily\",\"last_interaction\":\"2024-01-14T18:30:00Z\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+44 7700 900123"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"display_name\":\"Priya Sharma\",\"phone_numbers\":[\"+44 7700 900123\"],\"email\":\"priya.s@example.com\",\"contact_frequency\":\"weekly\"}"
+  },
+  {
+    "label": "Contacts",
+    "value": "name=Elena Rodriguez&phone=%2B34%20612%20345%20678&email=elena.r%40mail.example&interaction_count=47"
+  },
+  {
+    "label": "Contacts",
+    "value": "name=James O'Brien&phone=%2B1%20555-0234-5678&notes=College%20roommate"
+  },
+  {
+    "label": "Phone number",
+    "value": "+81-90-1234-5678"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"n\":\"Yuki Tanaka\",\"p\":[\"+81-90-1234-5678\"],\"e\":\"yuki.t@example.jp\",\"freq\":0.85,\"recency\":\"2024-01-10\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+20-2-1234-5678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+20-12-3456-7890"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"n\":\"Ahmed Hassan\",\"p\":[\"+20-2-1234-5678\",\"+20-12-3456-7890\"],\"e\":\"a.hassan@example.org\",\"freq\":0.62}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+33 1 23 45 67 89"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"n\":\"Sophie Martin\",\"p\":[\"+33 1 23 45 67 89\"],\"e\":\"sophie.martin@example.fr\",\"freq\":0.91,\"starred\":true}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-555-0100-2000"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"contact_id\":\"c_001\",\"full_name\":\"Dr. Robert Kim\",\"phones\":[{\"number\":\"+1-555-0100-2000\",\"type\":\"mobile\"}],\"emails\":[\"r.kim.md@example.com\"],\"social_score\":0.78,\"interaction_history\":{\"calls\":34,\"messages\":156}}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+52-55-1234-5678"
+  },
+  {
+    "label": "Phone number",
+    "value": "+52-55-9876-5432"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"contact_id\":\"c_002\",\"full_name\":\"Maria Garcia-Lopez\",\"phones\":[{\"number\":\"+52-55-1234-5678\",\"type\":\"home\"},{\"number\":\"+52-55-9876-5432\",\"type\":\"mobile\"}],\"emails\":[\"maria.gl@example.mx\",\"mgarcia@work.example.org\"],\"social_score\":0.92}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+45 12 34 56 78"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":{\"first\":\"Lars\",\"last\":\"Andersen\"},\"phoneNumber\":\"+45 12 34 56 78\",\"emailAddress\":\"lars.and@example.dk\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+49 30 12345678"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"contactName\":\"Hans Mueller\",\"telephone\":\"+49 30 12345678\",\"mail\":\"h.mueller@example.de\",\"callCount\":23,\"lastCall\":\"2024-01-08T14:00:00Z\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+33 1 98 76 54 32"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"contactName\":\"Jean-Pierre Dubois\",\"telephone\":\"+33 1 98 76 54 32\",\"mail\":\"jp.dubois@example.fr\",\"callCount\":5}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+61-2-1234-5678"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"id\":\"cnt_001\",\"nm\":\"Olivia Thompson\",\"tel\":\"+61-2-1234-5678\",\"em\":\"o.thompson@example.com.au\",\"graph_rank\":0.95}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+91-98765-43210"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"id\":\"cnt_002\",\"nm\":\"Raj Patel\",\"tel\":\"+91-98765-43210\",\"em\":\"raj.patel@example.in\",\"graph_rank\":0.88}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+55-11-91234-5678"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fn\":\"Carlos Silva\",\"pn\":\"+55-11-91234-5678\",\"em\":\"carlos.silva@example.br\",\"freq\":\"monthly\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+46-70-123-45-67"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fn\":\"Ingrid Johansson\",\"pn\":\"+46-70-123-45-67\",\"em\":\"ingrid.j@example.se\",\"freq\":\"weekly\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-555-0101-0101"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-555-0202-0202"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Thomas Anderson\",\"numbers\":[\"+1-555-0101-0101\",\"+1-555-0202-0202\"],\"mail\":\"t.anderson@example.net\",\"interactions\":{\"calls\":12,\"texts\":89,\"last\":\"2024-01-14\"}}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-555-0303-0303"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Sarah Connor\",\"numbers\":[\"+1-555-0303-0303\"],\"mail\":\"sconnor@example.org\",\"interactions\":{\"calls\":45,\"texts\":234,\"last\":\"2024-01-15\"}}"
+  },
+  {
+    "label": "Contacts",
+    "value": "contact_name=Fiona Campbell&contact_phone=%2B44-7700-900456&contact_email=fiona.c%40example.co.uk&contact_frequency=high"
+  },
+  {
+    "label": "Contacts",
+    "value": "contact_name=David Okonkwo&contact_phone=%2B234-80-1234-5678&contact_email=d.okonkwo%40example.ng"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-506-123-4567"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fullName\":\"Michelle LaFlamme\",\"phone\":\"+1-506-123-4567\",\"email\":\"michelle.l@example.ca\",\"addedAt\":\"2024-01-15T10:00:00Z\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+46-31-123 45 67"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fullName\":\"Sven Eriksson\",\"phone\":\"+46-31-123 45 67\",\"email\":\"sven.e@example.se\",\"addedAt\":\"2024-01-15T10:05:00Z\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+386-1-234-5678"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"n\":\"Katarina Novak\",\"p\":\"+386-1-234-5678\",\"e\":\"k.novak@example.si\",\"graph\":{\"weight\":0.93,\"recent\":true}}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+7-812-345-67-89"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"n\":\"Dmitri Volkov\",\"p\":\"+7-812-345-67-89\",\"e\":\"d.volkov@example.ru\",\"graph\":{\"weight\":0.71,\"recent\":false}}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+33-3-12-34-56-78"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fullName\":\"Pierre Lefebvre\",\"phone\":\"+33-3-12-34-56-78\",\"email\":\"p.lefebvre@example.fr\",\"callDuration\":2340}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+47-21-23-45-67"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fullName\":\"Astrid Nielsen\",\"phone\":\"+47-21-23-45-67\",\"email\":\"astrid.n@example.no\",\"callDuration\":1560}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+39-06-1234-5678"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Isabella Rossi\",\"phone\":\"+39-06-1234-5678\",\"email\":\"i.rossi@example.it\",\"social\":{\"messages\":234,\"calls\":45}}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+81-6-1234-5678"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Takeshi Yamamoto\",\"phone\":\"+81-6-1234-5678\",\"email\":\"t.yamamoto@example.jp\",\"social\":{\"messages\":567,\"calls\":89}}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+65-9123-4567"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"contactName\":\"Chen Wei Ming\",\"phoneNumber\":\"+65-9123-4567\",\"emailAddress\":\"chen.wm@example.sg\",\"frequency\":\"daily\",\"lastContact\":\"2024-01-15T08:00:00Z\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+351-21-123-4567"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"contactName\":\"Maria Santos\",\"phoneNumber\":\"+351-21-123-4567\",\"emailAddress\":\"m.santos@example.pt\",\"frequency\":\"weekly\",\"lastContact\":\"2024-01-10T14:30:00Z\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+43-1-123-45-67"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"nm\":\"Heinrich Schmidt\",\"ph\":\"+43-1-123-45-67\",\"em\":\"h.schmidt@example.at\",\"score\":0.82}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+81-90-8765-4321"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"nm\":\"Aiko Tanaka\",\"ph\":\"+81-90-8765-4321\",\"em\":\"aiko.t@example.jp\",\"score\":0.91}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+34-91-123-45-67"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"id\":\"c100\",\"fn\":\"Lucas Fernandez\",\"pn\":\"+34-91-123-45-67\",\"em\":\"l.fernandez@example.es\",\"rank\":0.94}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+31-20-123-4567"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"id\":\"c101\",\"fn\":\"Emma van der Berg\",\"pn\":\"+31-20-123-4567\",\"em\":\"emma.vdb@example.nl\",\"rank\":0.88}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+48-22-987-65-43"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Alexander Kowalski\",\"phone\":\"+48-22-987-65-43\",\"email\":\"a.kowalski@example.pl\",\"metrics\":{\"calls\":78,\"texts\":456}}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+81-3-9876-5432"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Yuki Sato\",\"phone\":\"+81-3-9876-5432\",\"email\":\"y.sato@example.jp\",\"metrics\":{\"calls\":34,\"texts\":123}}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-416-555-0123"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"full_name\":\"Dr. Sarah Mitchell\",\"phone_number\":\"+1-416-555-0123\",\"email_address\":\"s.mitchell.md@example.ca\",\"is_favorite\":true,\"last_updated\":\"2024-01-14\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-604-555-0456"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"full_name\":\"Prof. James Chen\",\"phone_number\":\"+1-604-555-0456\",\"email_address\":\"j.chen@example.ca\",\"is_favorite\":false,\"last_updated\":\"2024-01-12\"}"
+  },
+  {
+    "label": "Name",
+    "value": "Pavel Novak"
+  },
+  {
+    "label": "Phone number",
+    "value": "+420-2-1234-5678"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"n\":\"Pavel Novak\",\"p\":\"+420-2-1234-5678\",\"e\":\"p.novak@example.cz\",\"social_rank\":0.87}"
+  },
+  {
+    "label": "Name",
+    "value": "Katrina Bergmanis"
+  },
+  {
+    "label": "Phone number",
+    "value": "+371-67-123-456"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"n\":\"Katrina Bergmanis\",\"p\":\"+371-67-123-456\",\"e\":\"k.bergmanis@example.lv\",\"social_rank\":0.79}"
+  },
+  {
+    "label": "Contacts",
+    "value": "name=Olga Ivanova&phone=%2B7-495-987-65-43&email=olga.i%40example.ru&validation=passed"
+  },
+  {
+    "label": "Contacts",
+    "value": "name=Marco Bianchi&phone=%2B39-02-1234-5678&email=m.bianchi%40example.it&validation=passed"
+  },
+  {
+    "label": "Phone number",
+    "value": "+40-21-123-45-67"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Elena Popescu\",\"phone\":\"+40-21-123-45-67\",\"email\":\"e.popescu@example.ro\",\"graph\":{\"weight\":0.85,\"interactions\":234}}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+30-210-123-4567"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Stavros Papadopoulos\",\"phone\":\"+30-210-123-4567\",\"email\":\"s.papadopoulos@example.gr\",\"graph\":{\"weight\":0.77,\"interactions\":189}}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+353-1-234-5678"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fullName\":\"Brigid O'Connor\",\"phoneNumber\":\"+353-1-234-5678\",\"emailAddress\":\"brigid.oc%40example.ie\",\"isFavorite\":true}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+421-2-1234-5678"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fullName\":\"Jan Novak\",\"phoneNumber\":\"+421-2-1234-5678\",\"emailAddress\":\"jan.novak%40example.sk\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+971-4-123-4567"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"contact_name\":\"Fatima Al-Hassan\",\"contact_phone\":\"+971-4-123-4567\",\"contact_email\":\"f.alhassan@example.ae\",\"social_score\":0.91}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+52-55-9876-5432"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"contact_name\":\"Rafael Mendez\",\"contact_phone\":\"+52-55-9876-5432\",\"contact_email\":\"r.mendez@example.mx\",\"social_score\":0.84}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+43-1-987-65-43"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"display_name\":\"Klaus Fischer\",\"phone_number\":\"+43-1-987-65-43\",\"email\":\"k.fischer@example.at\",\"call_frequency\":\"weekly\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+34-93-123-45-67"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"display_name\":\"Ana Maria Garcia\",\"phone_number\":\"+34-93-123-45-67\",\"email\":\"a.garcia@example.es\",\"call_frequency\":\"monthly\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+46-31-123 45 67"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"id\":\"cnt_a1\",\"name\":\"Johan Nilsson\",\"phone\":\"+46-31-123 45 67\",\"email\":\"j.nilsson@example.se\",\"merge_key\":\"nilsson_j\"}"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"id\":\"cnt_a2\",\"name\":\"Nilsson, Johan\",\"phone\":\"+46-31-123 45 67\",\"email\":\"johan.nilsson@example.se\",\"merge_key\":\"nilsson_j\"}"
+  },
+  {
+    "label": "Contacts",
+    "value": "name=Amelia Thompson&phone=%2B44-161-123-4567&email=amelia.t%40example.co.uk&recent_calls=12"
+  },
+  {
+    "label": "Contacts",
+    "value": "name=Sebastian Mueller&phone=%2B49-40-1234567&email=s.mueller%40example.de&recent_calls=8"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-212-555-0198"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fullName\":\"Dr. Benjamin Park\",\"phone\":\"+1-212-555-0198\",\"email\":\"b.park.md@example.com\",\"isEmergencyContact\":false}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+1-650-555-0234"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fullName\":\"Victoria Chen-Smith\",\"phone\":\"+1-650-555-0234\",\"email\":\"v.chensmith@example.com\",\"isEmergencyContact\":true}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+86-139-1234-5678"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Li Wei\",\"phone\":\"+86-139-1234-5678\",\"email\":\"li.wei@example.cn\",\"labels\":[\"work\",\"important\"]}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+48-22-987-65-43"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Anna Kowalczyk\",\"phone\":\"+48-22-987-65-43\",\"email\":\"a.kowalczyk@example.pl\",\"labels\":[\"family\"]}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+47-22-12-34-56"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"cn\":\"Ole Kristiansen\",\"ph\":\"+47-22-12-34-56\",\"em\":\"ole.k%40example.no\",\"starred\":true}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+48-71-123-45-67"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"cn\":\"Marta Nowak\",\"ph\":\"+48-71-123-45-67\",\"em\":\"marta.n%40example.pl\",\"starred\":false}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+46-8-765 43 21"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"displayName\":\"Erik Lindqvist\",\"phone\":\"+46-8-765 43 21\",\"email\":\"e.lindqvist@example.se\",\"interactionScore\":0.89,\"lastSync\":\"2024-01-15T09:00:00Z\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+39-06-9876-5432"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"displayName\":\"Chiara Romano\",\"phone\":\"+39-06-9876-5432\",\"email\":\"c.romano@example.it\",\"interactionScore\":0.76,\"lastSync\":\"2024-01-15T09:00:00Z\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+966-11-123-4567"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Youssef Al-Rahman\",\"phone\":\"+966-11-123-4567\",\"email\":\"y.alrahman@example.sa\",\"social\":{\"messages\":567,\"calls\":123}}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+47-90-12-34-56"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Ingrid Larsen\",\"phone\":\"+47-90-12-34-56\",\"email\":\"ingrid.l@example.no\",\"social\":{\"messages\":234,\"calls\":67}}"
+  },
+  {
+    "label": "Contacts",
+    "value": "contact_name=Francois Martin&contact_phone=%2B33-4-12-34-56-78&contact_email=f.martin%40example.fr&contact_notes=Business%20partner"
+  },
+  {
+    "label": "Contacts",
+    "value": "contact_name=Hiroshi Watanabe&contact_phone=%2B81-3-2345-6789&contact_email=h.watanabe%40example.jp&contact_notes=Met%20at%20conference"
+  },
+  {
+    "label": "Phone number",
+    "value": "+86-21-9876-5432"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"n\":\"Zhang Ming\",\"p\":\"+86-21-9876-5432\",\"e\":\"zhang.ming%40example.cn\",\"w\":0.88}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+48-22-123-45-67"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"n\":\"Katarzyna Wisniewska\",\"p\":\"+48-22-123-45-67\",\"e\":\"k.wisniewska%40example.pl\",\"w\":0.79}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+48-71-987-65-43"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fullName\":\"Piotr Kowalczyk\",\"telephone\":\"+48-71-987-65-43\",\"emailAddress\":\"p.kowalczyk@example.pl\",\"meta\":{\"imported\":\"2024-01-15\",\"source\":\"device\"}}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+354-510-1234"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fullName\":\"Sigrun Magnusdottir\",\"telephone\":\"+354-510-1234\",\"emailAddress\":\"s.magnusdottir@example.is\",\"meta\":{\"imported\":\"2024-01-15\",\"source\":\"device\"}}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+7-812-987-65-43"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Elena Volkova\",\"phone\":\"+7-812-987-65-43\",\"email\":\"e.volkova@example.ru\",\"contactType\":\"personal\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+46-8-123 45 67"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Johan Bergstr\u221a\u2202m\",\"phone\":\"+46-8-123 45 67\",\"email\":\"johan.bergstrom@example.se\",\"contactType\":\"professional\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+353-1-987-6543"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fullName\":\"Margaret O'Brien\",\"phone\":\"+353-1-987-6543\",\"email\":\"margaret.obrien%40example.ie\",\"lastModified\":\"2024-01-15T10:00:00Z\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+49-69-12345678"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fullName\":\"Georg Schmitt\",\"phone\":\"+49-69-12345678\",\"email\":\"g.schmitt%40example.de\",\"lastModified\":\"2024-01-15T10:05:00Z\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+381-11-123-4567"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"displayName\":\"Dr. Andrej Petrovic\",\"phone\":\"+381-11-123-4567\",\"email\":\"a.petrovic@example.rs\",\"verified\":true}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+46-46-123-456"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"displayName\":\"Katarina Nilsson\",\"phone\":\"+46-46-123-456\",\"email\":\"k.nilsson@example.se\",\"verified\":true}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+31-10-123-4567"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Sophie van der Berg\",\"phone\":\"+31-10-123-4567\",\"email\":\"s.vandenberg@example.nl\",\"updateReason\":\"phone_change\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+39-06-1234-5678"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"name\":\"Marco Rossi\",\"phone\":\"+39-06-1234-5678\",\"email\":\"m.rossi@example.it\",\"updateReason\":\"email_change\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+45-33-12-34-56"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fullName\":\"Dr. Henrik Andersen\",\"phone\":\"+45-33-12-34-56\",\"email\":\"h.andersen@example.dk\",\"profession\":\"physician\"}"
+  },
+  {
+    "label": "Phone number",
+    "value": "+34-93-987-65-43"
+  },
+  {
+    "label": "Contacts",
+    "value": "{\"fullName\":\"Carmen Rodriguez\",\"phone\":\"+34-93-987-65-43\",\"email\":\"c.rodriguez@example.es\",\"profession\":\"engineer\"}"
+  },
+  {
+    "label": "Approximate location",
+    "value": "Greater Toronto Area"
+  },
+  {
+    "label": "Approximate location",
+    "value": "u4p"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "23.5"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "45"
+  },
+  {
+    "label": "Other app performance data",
+    "value": "4523000"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "0"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "12.3"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "8.7"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "3"
+  },
+  {
+    "label": "Other app performance data",
+    "value": "8"
+  },
+  {
+    "label": "Other app performance data",
+    "value": "12"
+  },
+  {
+    "label": "Other app performance data",
+    "value": "4"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "12"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "0"
+  },
+  {
+    "label": "Other app performance data",
+    "value": "7200"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "28.4"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "78.4"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "234"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "3456"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "678"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "123"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "24"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "156"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "1"
+  },
+  {
+    "label": "Other app performance data",
+    "value": "8"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "9.2"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "2"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "4"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "345"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "78"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "15"
+  },
+  {
+    "label": "Other app performance data",
+    "value": "3600"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "14.2"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "4"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "1"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "456"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "102"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "23"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "25.8"
+  },
+  {
+    "label": "Other app performance data",
+    "value": "7200"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "1"
+  },
+  {
+    "label": "Other app performance data",
+    "value": "5400"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "0"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "15"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "32.1"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "45"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "8"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "0.2"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "789"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "178"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "45"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "23"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "8.9"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "2"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "3"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "5"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "389"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "87"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "19"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "15.8"
+  },
+  {
+    "label": "Other app performance data",
+    "value": "18"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "3"
+  },
+  {
+    "label": "Other app performance data",
+    "value": "28800"
+  },
+  {
+    "label": "Diagnostics",
+    "value": "4"
+  },
+  {
+    "label": "Other app performance data",
+    "value": "25200"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Thanks for sharing this! I had a similar experience last year and it really helped to talk to friends about it."
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Reminder to self: pick up dry cleaning before the event on Saturday. Also need to call the dentist to reschedule that appointment."
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Went to my first pottery class yesterday! My bowl came out a bit lopsided but the instructor said that's normal for beginners. Can't wait for next week's session."
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "This recipe looks delicious! I've been looking for a good vegetarian lasagna and this seems perfect. Will definitely try it this weekend and report back with results."
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "The new update is fantastic! Love the redesigned interface and the dark mode is much easier on the eyes. Great work dev team!"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Day 15 of my fitness journey: Completed my first 5K run without stopping! My legs are tired but my spirit is soaring. Small victories matter."
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Just finished a 30-day meditation challenge. It really helped with my anxiety and sleep. If anyone's on the fence, I highly recommend giving it a try."
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Beautiful morning walk through the park. Cherry blossoms are in full bloom!"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Feedback after using the app for two weeks: The interface is intuitive and I love the dark mode option. Would be great to have more customization options for notifications. Overall solid experience!"
+  },
+  {
+    "label": "Other user-generated content",
+    "value": "Learning a new language at 30 feels daunting but rewarding. Started Spanish lessons last month and can already order coffee and ask for directions!"
+  }
+]

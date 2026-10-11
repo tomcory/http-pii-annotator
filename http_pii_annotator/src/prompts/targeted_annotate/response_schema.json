@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "annotations": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "description": "A list of all PII values in the given HTTP message, annotated with their PII data type according to the given label scheme.",
+                "properties": {
+                    "data_type": {
+                        "type": "string",
+                        "description": "The PII data type of the annotated PII value."
+                    },
+                    "value": {
+                        "type": "string",
+                        "description": "The exact span of the annotated PII value."
+                    }
+                },
+                "required": [ "data_type", "value" ],
+                "additionalProperties": false
+            }
+        }
+    },
+    "required": [ "annotations" ],
+    "additionalProperties": false
+}

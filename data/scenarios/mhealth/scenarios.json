@@ -1,0 +1,426 @@
+[
+  {
+    "scenario_id": "S01",
+    "scenario": "device_registration",
+    "goal": "Register or update a mobile device with an app backend, sending device identifiers and settings.",
+    "host_variants": ["api.mobileapp.example", "device.registrations.example", "mobile.services.example"],
+    "endpoint_families": ["/api/v1/device/register", "/v2/devices", "/mobile/v1/register-device", "/device-management/v1/enroll", "/api/devices/{device_id}"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Device model", "weight": 0.95, "typical_placements": ["body", "header"]},
+      {"label": "Screen resolution", "weight": 0.85, "typical_placements": ["body"]},
+      {"label": "Carrier name", "weight": 0.7, "typical_placements": ["body", "header"]},
+      {"label": "OS build", "weight": 0.9, "typical_placements": ["body", "header"]},
+      {"label": "API level", "weight": 0.75, "typical_placements": ["body", "header"]},
+      {"label": "Locale", "weight": 0.8, "typical_placements": ["body", "header"]},
+      {"label": "Timezone", "weight": 0.7, "typical_placements": ["body", "header"]},
+      {"label": "Advertising ID", "weight": 0.6, "typical_placements": ["body", "header"]}
+    ],
+    "notes": "Device registration is common on first app launch. Advertising ID may be optional depending on user consent."
+  },
+  {
+    "scenario_id": "S02",
+    "scenario": "user_profile_create",
+    "goal": "Create a new user profile with personal identification and contact information.",
+    "host_variants": ["accounts.myapp.example", "users.platform.example", "identity.services.example"],
+    "endpoint_families": ["/api/v1/users", "/v2/profiles/create", "/accounts/v1/signup", "/users/{user_id}/profile", "/identity/v1/register"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "multipart/form-data"],
+    "pii_candidates": [
+      {"label": "Name", "weight": 0.95, "typical_placements": ["body"]},
+      {"label": "Email address", "weight": 0.95, "typical_placements": ["body"]},
+      {"label": "Age", "weight": 0.5, "typical_placements": ["body"]},
+      {"label": "Date of birth", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "Gender", "weight": 0.5, "typical_placements": ["body"]},
+      {"label": "Country", "weight": 0.8, "typical_placements": ["body"]},
+      {"label": "City", "weight": 0.6, "typical_placements": ["body"]},
+      {"label": "Locale", "weight": 0.7, "typical_placements": ["body", "header"]}
+    ],
+    "notes": "Some fields like Age may be derived from Date of birth; both may not appear together."
+  },
+  {
+    "scenario_id": "S03",
+    "scenario": "location_checkin",
+    "goal": "Report user's current location for location-based services or check-in features.",
+    "host_variants": ["location.services.example", "geo.api.example", "places.nearby.example"],
+    "endpoint_families": ["/api/v1/location/checkin", "/v2/geo/ping", "/location/v1/update", "/places/{place_id}/checkin", "/geo/v1/position"],
+    "methods": ["POST", "GET"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "(none)"],
+    "pii_candidates": [
+      {"label": "Latitude", "weight": 0.9, "typical_placements": ["body", "query"]},
+      {"label": "Longitude", "weight": 0.9, "typical_placements": ["body", "query"]},
+      {"label": "City", "weight": 0.6, "typical_placements": ["body", "query"]},
+      {"label": "Country", "weight": 0.5, "typical_placements": ["body", "query"]},
+      {"label": "Country code", "weight": 0.5, "typical_placements": ["body", "query"]},
+      {"label": "Timezone", "weight": 0.4, "typical_placements": ["body", "header"]}
+    ],
+    "notes": "Precise location (lat/long) may be sent alongside approximate location (city/country) for redundancy."
+  },
+  {
+    "scenario_id": "S04",
+    "scenario": "fitness_onboarding",
+    "goal": "Complete initial setup for a fitness tracking app with body measurements and goals.",
+    "host_variants": ["fitness.tracker.example", "health.app.example", "workout.platform.example"],
+    "endpoint_families": ["/api/v1/user/setup", "/v2/onboarding/fitness", "/fitness/v1/profile/create", "/users/{user_id}/fitness-profile", "/health/v1/init"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Name", "weight": 0.85, "typical_placements": ["body"]},
+      {"label": "Email address", "weight": 0.8, "typical_placements": ["body"]},
+      {"label": "Age", "weight": 0.6, "typical_placements": ["body"]},
+      {"label": "Gender", "weight": 0.5, "typical_placements": ["body"]},
+      {"label": "Body height", "weight": 0.9, "typical_placements": ["body"]},
+      {"label": "Body weight", "weight": 0.9, "typical_placements": ["body"]},
+      {"label": "Body weight goal", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "Fitness goals", "weight": 0.85, "typical_placements": ["body"]},
+      {"label": "Fitness level", "weight": 0.75, "typical_placements": ["body"]}
+    ],
+    "notes": "Initial onboarding typically collects baseline measurements and goal preferences."
+  },
+  {
+    "scenario_id": "S05",
+    "scenario": "activity_sync",
+    "goal": "Sync daily activity data from a wearable device or fitness tracker.",
+    "host_variants": ["sync.wearable.example", "activity.tracker.example", "fitness.api.example"],
+    "endpoint_families": ["/api/v1/sync/activity", "/v2/activities/upload", "/wearable/v1/data", "/users/{user_id}/activities", "/fitness/v1/sync"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Step count", "weight": 0.95, "typical_placements": ["body"]},
+      {"label": "Heart rate", "weight": 0.8, "typical_placements": ["body"]},
+      {"label": "Device model", "weight": 0.7, "typical_placements": ["body", "header"]},
+      {"label": "Advertising ID", "weight": 0.5, "typical_placements": ["header"]},
+      {"label": "Latitude", "weight": 0.4, "typical_placements": ["body"]},
+      {"label": "Longitude", "weight": 0.4, "typical_placements": ["body"]}
+    ],
+    "notes": "Activity syncs are frequent; location may be included if GPS tracking is enabled."
+  },
+  {
+    "scenario_id": "S06",
+    "scenario": "nutrition_log",
+    "goal": "Log meals, dietary preferences, and nutrition-related information.",
+    "host_variants": ["nutrition.tracker.example", "diet.app.example", "meals.logger.example"],
+    "endpoint_families": ["/api/v1/nutrition/log", "/v2/meals/create", "/diet/v1/entries", "/users/{user_id}/nutrition", "/food/v1/log"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Eating habits", "weight": 0.85, "typical_placements": ["body"]},
+      {"label": "Body weight", "weight": 0.5, "typical_placements": ["body"]},
+      {"label": "Body weight goal", "weight": 0.6, "typical_placements": ["body"]},
+      {"label": "Fitness goals", "weight": 0.5, "typical_placements": ["body"]}
+    ],
+    "notes": "Dietary logging apps often track eating habits alongside weight management goals."
+  },
+  {
+    "scenario_id": "S07",
+    "scenario": "sleep_tracking",
+    "goal": "Record sleep patterns and overnight health metrics.",
+    "host_variants": ["sleep.tracker.example", "rest.monitor.example", "wellness.app.example"],
+    "endpoint_families": ["/api/v1/sleep/log", "/v2/sleep/sessions", "/rest/v1/record", "/users/{user_id}/sleep", "/wellness/v1/sleep"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Sleep habits", "weight": 0.95, "typical_placements": ["body"]},
+      {"label": "Mental wellbeing", "weight": 0.5, "typical_placements": ["body"]},
+      {"label": "Heart rate", "weight": 0.6, "typical_placements": ["body"]}
+    ],
+    "notes": "Sleep tracking often includes overnight heart rate data from wearables."
+  },
+  {
+    "scenario_id": "S08",
+    "scenario": "wellness_checkin",
+    "goal": "Submit a daily wellness or mood check-in survey response.",
+    "host_variants": ["wellness.app.example", "mental.health.example", "mood.tracker.example"],
+    "endpoint_families": ["/api/v1/checkin/wellness", "/v2/mood/submit", "/wellness/v1/daily", "/users/{user_id}/checkins", "/mental/v1/survey"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Mental wellbeing", "weight": 0.95, "typical_placements": ["body"]},
+      {"label": "Sleep habits", "weight": 0.6, "typical_placements": ["body"]},
+      {"label": "Fitness level", "weight": 0.3, "typical_placements": ["body"]}
+    ],
+    "notes": "Wellness check-ins often ask about mood, stress, and recent sleep quality."
+  },
+  {
+    "scenario_id": "S09",
+    "scenario": "menstrual_tracking",
+    "goal": "Log menstrual cycle data including period dates, symptoms, and contraceptive information.",
+    "host_variants": ["cycle.tracker.example", "womens.health.example", "period.tracker.example"],
+    "endpoint_families": ["/api/v1/cycle/log", "/v2/period/entry", "/cycle/v1/track", "/users/{user_id}/menstrual", "/health/v1/female/cycle"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Menstrual cycle length", "weight": 0.85, "typical_placements": ["body"]},
+      {"label": "Period start date", "weight": 0.9, "typical_placements": ["body"]},
+      {"label": "Period length", "weight": 0.8, "typical_placements": ["body"]},
+      {"label": "Period symptoms", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "Birth control", "weight": 0.5, "typical_placements": ["body"]},
+      {"label": "Mental wellbeing", "weight": 0.4, "typical_placements": ["body"]}
+    ],
+    "notes": "Menstrual tracking apps often correlate cycle data with mood and wellbeing."
+  },
+  {
+    "scenario_id": "S10",
+    "scenario": "health_metrics",
+    "goal": "Upload vital signs and health measurements from a monitoring device.",
+    "host_variants": ["health.monitor.example", "vitals.tracker.example", "medical.devices.example"],
+    "endpoint_families": ["/api/v1/vitals/upload", "/v2/health/metrics", "/vitals/v1/record", "/users/{user_id}/measurements", "/health/v1/readings"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Heart rate", "weight": 0.9, "typical_placements": ["body"]},
+      {"label": "Blood pressure", "weight": 0.85, "typical_placements": ["body"]},
+      {"label": "Body temperature", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "Glucose levels", "weight": 0.6, "typical_placements": ["body"]}
+    ],
+    "notes": "Vital signs uploads may come from smartwatches, blood pressure monitors, or glucose meters."
+  },
+  {
+    "scenario_id": "S11",
+    "scenario": "medical_profile",
+    "goal": "Create or update a medical profile with health conditions and personal details.",
+    "host_variants": ["health.records.example", "medical.profile.example", "patient.portal.example"],
+    "endpoint_families": ["/api/v1/medical/profile", "/v2/patient/details", "/health/v1/conditions", "/users/{user_id}/medical-history", "/records/v1/profile"],
+    "methods": ["POST", "PUT", "PATCH"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Medical conditions", "weight": 0.9, "typical_placements": ["body"]},
+      {"label": "Blood pressure", "weight": 0.5, "typical_placements": ["body"]},
+      {"label": "Glucose levels", "weight": 0.4, "typical_placements": ["body"]},
+      {"label": "Age", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "Date of birth", "weight": 0.8, "typical_placements": ["body"]},
+      {"label": "Gender", "weight": 0.75, "typical_placements": ["body"]}
+    ],
+    "notes": "Medical profiles require accurate personal information for proper health tracking."
+  },
+  {
+    "scenario_id": "S12",
+    "scenario": "sexual_health_log",
+    "goal": "Record sexual health and reproductive information for health tracking purposes.",
+    "host_variants": ["sexual.health.example", "reproductive.health.example", "intimate.tracker.example"],
+    "endpoint_families": ["/api/v1/sexual-health/log", "/v2/reproductive/entry", "/health/v1/intimate", "/users/{user_id}/sexual-health", "/wellness/v1/reproductive"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Sexual activity", "weight": 0.85, "typical_placements": ["body"]},
+      {"label": "Birth control", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "Menstrual cycle length", "weight": 0.5, "typical_placements": ["body"]}
+    ],
+    "notes": "Sexual health tracking may be part of broader reproductive health apps."
+  },
+  {
+    "scenario_id": "S13",
+    "scenario": "account_settings_update",
+    "goal": "Update user account settings including personal info and preferences.",
+    "host_variants": ["settings.myapp.example", "account.prefs.example", "preferences.platform.example"],
+    "endpoint_families": ["/api/v1/account/settings", "/v2/user/preferences", "/settings/v1/update", "/users/{user_id}/settings", "/account/v1/prefs"],
+    "methods": ["PUT", "PATCH"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Name", "weight": 0.6, "typical_placements": ["body"]},
+      {"label": "Email address", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "Country", "weight": 0.5, "typical_placements": ["body"]},
+      {"label": "City", "weight": 0.4, "typical_placements": ["body"]},
+      {"label": "Timezone", "weight": 0.6, "typical_placements": ["body"]},
+      {"label": "Locale", "weight": 0.7, "typical_placements": ["body", "header"]}
+    ],
+    "notes": "Settings updates typically modify preferences rather than core identity information."
+  },
+  {
+    "scenario_id": "S14",
+    "scenario": "analytics_ping",
+    "goal": "Send analytics and telemetry data including device and session information.",
+    "host_variants": ["telemetry.app.example", "analytics.collector.example", "metrics.platform.example"],
+    "endpoint_families": ["/api/v1/analytics/ping", "/v2/telemetry/collect", "/metrics/v1/submit", "/analytics/{session_id}/event", "/telemetry/v1/batch"],
+    "methods": ["POST", "GET"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "(none)"],
+    "pii_candidates": [
+      {"label": "Device model", "weight": 0.9, "typical_placements": ["body", "header"]},
+      {"label": "OS build", "weight": 0.85, "typical_placements": ["body", "header"]},
+      {"label": "API level", "weight": 0.7, "typical_placements": ["body", "header"]},
+      {"label": "Screen resolution", "weight": 0.75, "typical_placements": ["body"]},
+      {"label": "Carrier name", "weight": 0.6, "typical_placements": ["body", "header"]},
+      {"label": "Advertising ID", "weight": 0.8, "typical_placements": ["body", "header", "query"]},
+      {"label": "Locale", "weight": 0.85, "typical_placements": ["body", "header"]},
+      {"label": "Timezone", "weight": 0.8, "typical_placements": ["body", "header"]}
+    ],
+    "notes": "Analytics pings often bundle device info; advertising ID presence depends on consent."
+  },
+  {
+    "scenario_id": "S15",
+    "scenario": "location_sharing",
+    "goal": "Share current location with contacts or for a specific service feature.",
+    "host_variants": ["share.location.example", "findmy.service.example", "location.share.example"],
+    "endpoint_families": ["/api/v1/location/share", "/v2/geo/broadcast", "/sharing/v1/position", "/users/{user_id}/share-location", "/location/v1/publish"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Latitude", "weight": 0.95, "typical_placements": ["body"]},
+      {"label": "Longitude", "weight": 0.95, "typical_placements": ["body"]},
+      {"label": "City", "weight": 0.5, "typical_placements": ["body"]},
+      {"label": "Country code", "weight": 0.4, "typical_placements": ["body"]},
+      {"label": "Name", "weight": 0.7, "typical_placements": ["body"]}
+    ],
+    "notes": "Location sharing features typically include precise coordinates and may show user's name to recipients."
+  },
+  {
+    "scenario_id": "S16",
+    "scenario": "fitness_goal_update",
+    "goal": "Update fitness goals and targets in a workout tracking app.",
+    "host_variants": ["goals.fitness.example", "targets.workout.example", "fitness.objectives.example"],
+    "endpoint_families": ["/api/v1/goals/update", "/v2/targets/set", "/fitness/v1/objectives", "/users/{user_id}/goals", "/workout/v1/targets"],
+    "methods": ["PUT", "PATCH", "POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Fitness goals", "weight": 0.95, "typical_placements": ["body"]},
+      {"label": "Body weight goal", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "Fitness level", "weight": 0.5, "typical_placements": ["body"]},
+      {"label": "Step count", "weight": 0.4, "typical_placements": ["body"]}
+    ],
+    "notes": "Goal updates may include step count targets or weight objectives."
+  },
+  {
+    "scenario_id": "S17",
+    "scenario": "health_dashboard_sync",
+    "goal": "Bulk sync health metrics to a centralized health dashboard.",
+    "host_variants": ["dashboard.health.example", "health.aggregate.example", "vitals.hub.example"],
+    "endpoint_families": ["/api/v1/dashboard/sync", "/v2/health/bulk", "/aggregate/v1/vitals", "/users/{user_id}/health-sync", "/dashboard/v1/batch"],
+    "methods": ["POST"],
+    "content_types": ["application/json"],
+    "pii_candidates": [
+      {"label": "Heart rate", "weight": 0.85, "typical_placements": ["body"]},
+      {"label": "Blood pressure", "weight": 0.75, "typical_placements": ["body"]},
+      {"label": "Glucose levels", "weight": 0.5, "typical_placements": ["body"]},
+      {"label": "Body weight", "weight": 0.6, "typical_placements": ["body"]},
+      {"label": "Step count", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "Sleep habits", "weight": 0.5, "typical_placements": ["body"]}
+    ],
+    "notes": "Dashboard syncs aggregate multiple health metrics in a single request."
+  },
+  {
+    "scenario_id": "S18",
+    "scenario": "period_prediction",
+    "goal": "Request or update period predictions based on cycle history.",
+    "host_variants": ["predict.cycle.example", "forecast.period.example", "cycle.prediction.example"],
+    "endpoint_families": ["/api/v1/prediction/period", "/v2/cycle/forecast", "/predict/v1/next-period", "/users/{user_id}/predictions", "/cycle/v1/estimate"],
+    "methods": ["POST", "GET"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded", "(none)"],
+    "pii_candidates": [
+      {"label": "Period start date", "weight": 0.9, "typical_placements": ["body", "query"]},
+      {"label": "Menstrual cycle length", "weight": 0.85, "typical_placements": ["body"]},
+      {"label": "Period length", "weight": 0.75, "typical_placements": ["body"]},
+      {"label": "Period symptoms", "weight": 0.5, "typical_placements": ["body"]}
+    ],
+    "notes": "Prediction requests may include historical cycle data for forecasting."
+  },
+  {
+    "scenario_id": "S19",
+    "scenario": "static_asset_fetch",
+    "goal": "Fetch static assets such as images, CSS, or JavaScript files with no personal data.",
+    "host_variants": ["cdn.assets.example", "static.resources.example", "media.cdn.example"],
+    "endpoint_families": ["/static/{asset_path}", "/assets/v1/{file_id}", "/cdn/resources/{type}/{filename}", "/public/images/{image_id}", "/dist/bundle.js"],
+    "methods": ["GET"],
+    "content_types": ["(none)"],
+    "pii_candidates": [],
+    "negative_control": true,
+    "notes": "Negative control scenario. Downstream generator must not add cookies, auth headers, or any PII."
+  },
+  {
+    "scenario_id": "S20",
+    "scenario": "feature_flag_poll",
+    "goal": "Poll for feature flags or app configuration with no user-specific data.",
+    "host_variants": ["flags.config.example", "features.platform.example", "config.remote.example"],
+    "endpoint_families": ["/api/v1/flags", "/v2/config/features", "/features/v1/poll", "/remote-config/{app_version}", "/flags/v1/batch"],
+    "methods": ["GET"],
+    "content_types": ["(none)"],
+    "pii_candidates": [],
+    "negative_control": true,
+    "notes": "Negative control scenario. Feature flag requests should contain only app version, not user identifiers."
+  },
+  {
+    "scenario_id": "S21",
+    "scenario": "wearable_device_pairing",
+    "goal": "Pair a wearable device and register its hardware details with the app.",
+    "host_variants": ["pair.wearable.example", "devices.connect.example", "bluetooth.pairing.example"],
+    "endpoint_families": ["/api/v1/wearable/pair", "/v2/devices/connect", "/wearable/v1/register", "/users/{user_id}/devices", "/pairing/v1/start"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Device model", "weight": 0.95, "typical_placements": ["body"]},
+      {"label": "OS build", "weight": 0.6, "typical_placements": ["body"]},
+      {"label": "Screen resolution", "weight": 0.5, "typical_placements": ["body"]},
+      {"label": "Locale", "weight": 0.4, "typical_placements": ["body", "header"]},
+      {"label": "Timezone", "weight": 0.3, "typical_placements": ["body", "header"]}
+    ],
+    "notes": "Wearable pairing sends device identifiers to associate with user account."
+  },
+  {
+    "scenario_id": "S22",
+    "scenario": "body_measurement_update",
+    "goal": "Update body measurements in a fitness or health tracking app.",
+    "host_variants": ["measurements.fitness.example", "body.tracker.example", "physique.app.example"],
+    "endpoint_families": ["/api/v1/measurements/update", "/v2/body/measure", "/body/v1/stats", "/users/{user_id}/measurements", "/physique/v1/update"],
+    "methods": ["PUT", "PATCH", "POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Body height", "weight": 0.8, "typical_placements": ["body"]},
+      {"label": "Body weight", "weight": 0.95, "typical_placements": ["body"]},
+      {"label": "Body weight goal", "weight": 0.6, "typical_placements": ["body"]},
+      {"label": "Age", "weight": 0.3, "typical_placements": ["body"]},
+      {"label": "Gender", "weight": 0.3, "typical_placements": ["body"]}
+    ],
+    "notes": "Body measurement updates are common in fitness apps for tracking progress."
+  },
+  {
+    "scenario_id": "S23",
+    "scenario": "regional_settings_update",
+    "goal": "Update regional and localization preferences for a user account.",
+    "host_variants": ["locale.settings.example", "regional.prefs.example", "localization.app.example"],
+    "endpoint_families": ["/api/v1/settings/regional", "/v2/preferences/locale", "/regional/v1/update", "/users/{user_id}/locale", "/localization/v1/config"],
+    "methods": ["PUT", "PATCH"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Locale", "weight": 0.95, "typical_placements": ["body"]},
+      {"label": "Timezone", "weight": 0.9, "typical_placements": ["body"]},
+      {"label": "Country", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "Country code", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "City", "weight": 0.4, "typical_placements": ["body"]}
+    ],
+    "notes": "Regional settings affect date formats, language, and time display."
+  },
+  {
+    "scenario_id": "S24",
+    "scenario": "daily_health_log",
+    "goal": "Submit a daily health log combining multiple health metrics and wellness data.",
+    "host_variants": ["daily.health.example", "journal.wellness.example", "diary.health.example"],
+    "endpoint_families": ["/api/v1/daily/log", "/v2/journal/entry", "/health/v1/diary", "/users/{user_id}/daily-log", "/wellness/v1/submit"],
+    "methods": ["POST"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Heart rate", "weight": 0.7, "typical_placements": ["body"]},
+      {"label": "Body temperature", "weight": 0.5, "typical_placements": ["body"]},
+      {"label": "Sleep habits", "weight": 0.75, "typical_placements": ["body"]},
+      {"label": "Mental wellbeing", "weight": 0.8, "typical_placements": ["body"]},
+      {"label": "Step count", "weight": 0.6, "typical_placements": ["body"]},
+      {"label": "Eating habits", "weight": 0.5, "typical_placements": ["body"]}
+    ],
+    "notes": "Daily health journals combine physical and mental wellness metrics."
+  },
+  {
+    "scenario_id": "S25",
+    "scenario": "user_preferences_sync",
+    "goal": "Synchronize user preferences across devices including display and app settings.",
+    "host_variants": ["sync.prefs.example", "preferences.cloud.example", "settings.sync.example"],
+    "endpoint_families": ["/api/v1/prefs/sync", "/v2/settings/synchronize", "/prefs/v1/batch", "/users/{user_id}/preferences", "/cloud/v1/settings"],
+    "methods": ["POST", "PUT"],
+    "content_types": ["application/json", "application/x-www-form-urlencoded"],
+    "pii_candidates": [
+      {"label": "Locale", "weight": 0.85, "typical_placements": ["body"]},
+      {"label": "Timezone", "weight": 0.8, "typical_placements": ["body"]},
+      {"label": "Device model", "weight": 0.6, "typical_placements": ["body", "header"]},
+      {"label": "Screen resolution", "weight": 0.5, "typical_placements": ["body"]}
+    ],
+    "notes": "Preference syncs maintain consistent settings across user devices."
+  }
+]
